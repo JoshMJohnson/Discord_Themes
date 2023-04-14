@@ -8,7 +8,10 @@
 <h3 align='center'>Dark Green</h3>
 <p align='center'>
     <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Dark_Green.png" alt="Dark Green" width="600" height="400">
+    <br>
+    <p>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
+
 
 <h3 align='center'>Flash</h3>
 <p align='center'>
