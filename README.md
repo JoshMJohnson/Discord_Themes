@@ -21,7 +21,7 @@
 <h2 align='center'>Theme Previews</h2>
 
 <h3 align='center'>Dark Green</h3>
-<p align-'center'><a src='https://drive.google.com/file/d/1JM-sruVTm7nqaTh6ZSDjkGHVy21OCU7y/view?usp=share_link'>Download Dark Green Theme</a></p>
+<p align='center'><a src='https://drive.google.com/file/d/1JM-sruVTm7nqaTh6ZSDjkGHVy21OCU7y/view?usp=share_link'>Download Dark Green Theme</a></p>
 <p align='center'>
     <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Dark_Green.png" alt="Dark Green" width="600" height="400">
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
