@@ -1,6 +1,6 @@
 <h1 align='center'>Custom Made Discord Themes</h1>
 
-<img src='approving_morty.gif' alt='Morty Dancing in Approval' width='200px' height='400px' align='right'>
+<img src='approving_morty.gif' alt='Morty Dancing in Approval' width='200px' height='32500px' align='right'>
 
 [Dark Green](#dark-green)<br>
 [The Flash](#flash)<br>
