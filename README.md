@@ -1,6 +1,19 @@
 <h1 align='center'>Custom Made Discord Themes</h1>
 
 [Dark Green](#dark-green)<br>
+[The Flash](#flash)<br>
+[Green Arrow](#green-arrow)<br>
+[Lord of the Rings: Argonath](#lord-of-the-rings-argonath)<br>
+[Lord of the Rings: The Ring](#lord-of-the-rings-the-ring)<br>
+[Lord of the Rings: The Shire](#lord-of-the-rings-the-shire)<br>
+[NF](#nf)<br>
+[Rick Toilet](#rick-toilet)<br>
+[Rick Mug Shot](#rick-mug-shot)<br>
+[Star Wars: Captain Rex](#star-wars-captain-rex)<br>
+[Star Wars: Darth Traya](#star-wars-darth-traya)<br>
+[Star Wars: Millennium Falcon](#star-wars-millennium-falcon)<br>
+[Star Wars: Scout Trooper](#star-wars-scout-trooper)<br>
+[Shoto Todoroki](#shoto-todoroki)<br>
 
 <!-- custom theme previews -->
 <h2 align='center'>Theme Previews</h2>
