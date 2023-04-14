@@ -15,6 +15,8 @@
 [Star Wars: Scout Trooper](#star-wars-scout-trooper)<br>
 [Shoto Todoroki](#shoto-todoroki)<br>
 
+<img src='approving_morty.gif' alt='Morty Dancing in Approval' width='40%' height='200px' align='right'>
+
 <!-- custom theme previews -->
 <h2 align='center'>Theme Previews</h2>
 
