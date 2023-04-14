@@ -1,5 +1,7 @@
 <h1 align='center'>Custom Made Discord Themes</h1>
 
+<img src='approving_morty.gif' alt='Morty Dancing in Approval' width='200px' height='400px' align='right'>
+
 [Dark Green](#dark-green)<br>
 [The Flash](#flash)<br>
 [Green Arrow](#green-arrow)<br>
@@ -14,8 +16,6 @@
 [Star Wars: Millennium Falcon](#star-wars-millennium-falcon)<br>
 [Star Wars: Scout Trooper](#star-wars-scout-trooper)<br>
 [Shoto Todoroki](#shoto-todoroki)<br>
-
-<img src='approving_morty.gif' alt='Morty Dancing in Approval' width='40%' height='200px' align='right'>
 
 <!-- custom theme previews -->
 <h2 align='center'>Theme Previews</h2>
