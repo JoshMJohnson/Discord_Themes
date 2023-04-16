@@ -50,10 +50,10 @@
 	--card-color-select: rgba(0,0,0,0.7); 
 
     /* active user name */
-	--interactive-normal: rgba(255, 0, 0, .6);
-	--interactive-hover: rgba(255, 0, 0, .9);
-	--interactive-active: rgba(255, 0, 0, 1);
-	--interactive-muted: rgba(255, 0, 0, 1);
+	--interactive-normal: rgba(255, 0, 0, .6); /* channel not active font color */
+	--interactive-hover: rgba(255, 0, 0, .9); /* channel hover font color */ 
+	--interactive-active: rgba(255, 0, 0, 1); /* channel active font color */
+	--interactive-muted: rgba(255, 0, 0, 1); /* channel muted font color */
 	--background-modifier-hover: rgba(0, 0, 0, .4); /* hover direct message indicator background */
 	--background-modifier-selected: rgba(0, 0, 0, .7); /* active direct message indicator background */
 
@@ -427,7 +427,7 @@
      rx: 5;
  }
 
- .bd-switch input:checked+.bd-switch-body .bd-switch-slider rect {
+ .bd-switch input:checked+.bd-switch-body .bd-switch-slider rect { /* active theme node checkmark background */
     fill: rgba(0, 0, 0, 1);
  }
  
@@ -503,7 +503,7 @@
  /* channels within the server */
  .theme-dark .wrapper-NhbLHG:hover .content-1gYQeQ,
  .theme-dark .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 {
-    background-color: rgba(0, 0,0,.3);
+    background-color: rgba(0, 0,0,.7);
  }
 
  .theme-dark .wrapper-NhbLHG .actionIcon-2Hi9ZG,
@@ -515,7 +515,7 @@
  .theme-dark .wrapper-NhbLHG:hover .actionIcon-2Hi9ZG,
  .theme-dark .wrapper-NhbLHG:hover .name-28HaxV,
  .theme-dark .wrapper-NhbLHG:hover .icon-2W8DHg {
-     color: rgba(255, 0,0,.6);
+     color: rgba(255, 0,0,1);
  }
  
  .theme-dark .wrapper-NhbLHG.modeUnread-3Cxepe .icon-2W8DHg {
@@ -525,7 +525,7 @@
  .theme-dark .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ,
  .theme-dark .wrapper-NhbLHG.modeSelected-3DmyhH:hover .content-1gYQeQ,
  .theme-dark .listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42 {
-     background-color: rgba(0, 0,0,.4) !important;
+     background-color: rgba(0, 0,0,.9) !important;
  }
  
  .theme-dark .wrapper-NhbLHG.modeSelected-3DmyhH .actionIcon-2Hi9ZG,
@@ -544,11 +544,11 @@
      border-right-color: transparent;
  }
  
- .users-2JoyGL {
+ .users-2JoyGL { /* number of current players in lobby */
      background-color: rgba(255, 0, 0, .1);
  }
  
- .total-1c5KCN {
+ .total-1c5KCN { /* number of max players allowed in lobby */
      background-color: rgba(255, 0, 0, .4);
      width: 28px;
  }
@@ -1628,15 +1628,13 @@
  .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
  .theme-dark .header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy {
     background-color: transparent;
-     border: 2px solid rgba(0,0,0,1) !important;
-     /* 2nd Color of Monochromatic Colors */;
+     border: 2px solid rgba(0,0,0,1) !important;;
  }
  
  .side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover,
  .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover {
     background-color: transparent;
-     border: 2px solid rgba(0, 0, 0, 1);
-     /* 2nd Color of Monochromatic Colors */;
+     border: 2px solid rgba(0, 0, 0, 1);;
  }
 
  .side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP), 
@@ -1666,7 +1664,6 @@
  .accountBtn-3pgcgr .accountBtnInner-3ttD-i:hover {
      background-color: transparent;
      border: 2px solid rgba(0,0,0,1);
-     /* 2nd Color of Monochromatic Colors */
  }
  
  .theme-dark .bottomDivider-ZmTm-j {
@@ -1864,7 +1861,6 @@
     background-color: rgba(0, 0, 0, .7);
      color: rgba(255, 0, 0, 1);
      border: 2px solid rgba(0,0,0, 1);
-     /* 2nd Color of Monochromatic Colors */
  }
  
  /* Friends and DMS (Last Part) */
