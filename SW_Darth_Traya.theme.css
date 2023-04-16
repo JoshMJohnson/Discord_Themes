@@ -17,8 +17,8 @@
  
  :root {
      --avatar-size: 55px;
-     --background-primary: transparent; 
-     --background-secondary: rgba(0,0,0,.4); 
+     --background-primary: transparent; /* primary background color */
+     --background-secondary: rgba(0,0,0,.4); /* secondary background color */
 
      --accent-hue: 156;
 	--accent-saturation: 77.5%;
@@ -595,7 +595,7 @@
  }
  
  .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
- .wrapper-3kah-n:hover .childWrapper-1j_1ub { /* server icon */
+ .wrapper-3kah-n:hover .childWrapper-1j_1ub { /* server active icon */
      background-color: rgba(128, 0, 0, 1);
      color: rgba(0, 0, 0, 1);
  }
@@ -1274,7 +1274,7 @@
  }
  
  .channelTextArea-1FufC0 { /* post bar on bottom of server channel */
-     background: rgba(0, 0, 0, 1);
+     background: rgba(0, 0, 0, .4);
  }
  
  .cozy-VmLDNB .header-2jRmjb {
@@ -1400,7 +1400,7 @@
      background-color: rgba(0,0,0,.4);
  }
 
- .theme-dark .wrapper-1ZcZW-:hover { /* tags for other users */
+ .theme-dark .wrapper-1ZcZW-:hover { /* tags for other users hover */
     color: rgba(255,0,0,1);
     background-color: rgba(0,0,0,.4);
 }
@@ -1442,8 +1442,8 @@
      color: rgba(255,0,0,1);
  }
  
- .bd-toast {
-     background: rgba(0,0,0,.9); /* pop up notification */
+ .bd-toast { /* pop up notification */
+     background: rgba(0,0,0,.9); 
      border-radius: 12px;
      box-shadow: none;
      color: rgba(255,0,0,1);
