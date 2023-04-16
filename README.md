@@ -56,8 +56,15 @@
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
 
-<h3 align='center'>Lord of the Rings: The Shire</h3>
-<p align='center'><a href='https://drive.google.com/file/d/1O2y-eWgiogGL9QB0nNAy-chinnNo2-wY/view?usp=share_link'>Download Lord of the Rings: The Shire Theme</a></p>
+<h3 align='center'>Lord of the Rings: The Shire Gandalf</h3>
+<p align='center'><a href='https://drive.google.com/file/d/1vdKak1mntm-gD-kcEjxH_f3ZhfP1Bssh/view?usp=share_link'>Download Lord of the Rings: The Shire Theme</a></p>
+<p align='center'>
+    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/The_Shire.png" alt="Lord of the Rings: The Shire Theme" width="600" height="400">
+    <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
+</p>
+
+<h3 align='center'>Lord of the Rings: The Shire Door</h3>
+<p align='center'><a href='https://drive.google.com/file/d/1HsSedBasYTpRX_1q_nmDjEHLnEQ42kjZ/view?usp=share_link'>Download Lord of the Rings: The Shire Theme</a></p>
 <p align='center'>
     <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/The_Shire.png" alt="Lord of the Rings: The Shire Theme" width="600" height="400">
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
