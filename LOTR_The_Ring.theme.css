@@ -2518,11 +2518,11 @@
     position: relative;
     margin: 16px 5px 0 70px;
     padding: 8px 10px;
-    padding-bottom: 8px;
+    padding-bottom: 15px;
     background: linear-gradient(135deg, rgba(0,0,0,.4) 0%, rgba(0,0,0,.4) 50%, rgba(0,0,0,.4) 100%);
     border-bottom: none !important;
     overflow: visible !important;
-    border-radius: 0 5px 5px 5px;
+    border-radius: 0 10px 10px 0px;
 }
 
 .cozy-VmLDNB.wrapper-30-Nkg:after, .previewMessage-2g_aBv .message-2CShn3:not(.groupStart-3Mlgv1):before { /* top left marker pointing to user icon */
