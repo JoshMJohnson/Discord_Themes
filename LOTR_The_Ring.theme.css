@@ -2,7 +2,7 @@
  * @name Lord of the Rings - The Ring
  * @author Josh Johnson
  * @description The one ring to rule them all
- * @version 2
+ * @version 3
  */
 
  @import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
@@ -1278,11 +1278,10 @@
      position: relative;
  }
  
- .mentioned-Tre-dv .header-2jRmjb {
-     left: 75px;
+ .mentioned-Tre-dv .header-2jRmjb { /* user name (header) on post tagging your user */
+     left: 0px;
      position: relative;
  }
- 
  
  .preview-QJ3OG3 {
     background-color: transparent;
@@ -1317,13 +1316,13 @@
  }
  
  .container-2sjPya>*,
- .mentioned-Tre-dv {
-     left: calc(var(--avatar-size) + -32px);
+ .mentioned-Tre-dv { /* chat bubble when a user tags currently logged in user */
+     left: 0px;
      position: relative;
  }
  
- .mentioned-Tre-dv .markup-eYLPri {
-     left: 51px;
+ .mentioned-Tre-dv .markup-eYLPri { /* content text when a user tags currently logged in user */
+     left: 0px;
      top: revert;
  }
  
@@ -1360,10 +1359,16 @@
  .theme-dark .mentioned-Tre-dv,
  .message-2CShn3.mentioned-Tre-dv.selected-2LX7Jy,
  .mouse-mode.full-motion .mentioned-Tre-dv:hover { /* indicator when someone tags your user name */
-     background: rgba(0,0,0,0.5);
-     border: 2px solid rgba(0,0,0,1);
-     padding: 14px;
+     background: rgba(0,0,0,0.4);
  }
+
+
+
+ 
+
+
+
+
 
  .emptyChannelIcon-1YdEz2 { /* empty channel hash icon */
     background-color: rgba(0,0,0,1);
@@ -1392,21 +1397,20 @@
  
  .theme-dark .wrapper-1ZcZW- { /* tags for other users */
      color: rgba(255, 140, 0, .5) !important;
-     background-color: rgba(0,0,0,.5);
+     background-color: transparent;
  }
 
  .theme-dark .wrapper-1ZcZW-:hover { /* tags for other users hover */
     color: rgba(255, 140, 0, .8) !important;
-     background-color: rgba(0,0,0,.5);
 }
 
  .mention {
     padding: 2px 7px;
  }
  
- .theme-dark .mentioned-Tre-dv .mention {
+ .theme-dark .mentioned-Tre-dv .mention { /* when someone tags current user */
     background-color: transparent;
-     padding: 3.82px;
+    padding: 0px;
  }
  
  .botTagRegular-kpctgU,
@@ -2508,3 +2512,48 @@
   .menu-KSaHL1:before {
     display: none;
   }
+
+  /*Chat bubbles START */
+.message-2CShn3.groupStart-3Mlgv1 { /* adjusts spacing of chats */
+    position: relative;
+    margin: 16px 5px 0 70px;
+    padding: 8px 10px;
+    padding-bottom: 8px;
+    background: linear-gradient(135deg, rgba(0,0,0,.4) 0%, rgba(0,0,0,.4) 50%, rgba(0,0,0,.4) 100%);
+    border-bottom: none !important;
+    overflow: visible !important;
+    border-radius: 0 5px 5px 5px;
+}
+
+.cozy-VmLDNB.wrapper-30-Nkg:after, .previewMessage-2g_aBv .message-2CShn3:not(.groupStart-3Mlgv1):before { /* top left marker pointing to user icon */
+    content: '';
+    position: absolute;
+    width: 0 !important;
+    height: 0;
+    top: 0px !important;
+    left: -6px !important;
+    margin: -6px 0 0 0;
+    border: 6px solid transparent;
+    border-color: transparent;
+    border-right-color: rgba(0,0,0,.4);
+    pointer-events: none;
+    transform: rotate(135deg);
+}
+
+.message-2CShn3.groupStart-3Mlgv1 .avatar-2e8lTP, .systemMessage-1H1Z20.message-2CShn3:not(.groupStart-3Mlgv1) .avatar-2e8lTP { /* user icon placement */
+    top: 0px;
+    left: -60px;
+}
+
+.message-2CShn3:not(.groupStart-3Mlgv1) { /* grouping messages when a user sends mulitple messages in a row */
+    margin: 0 5px 0 70px;
+    background: linear-gradient(135deg, rgba(0,0,0,.4) 0%, rgba(0,0,0,.4) 50%, rgba(0,0,0,.4) 100%);
+    overflow: hidden;
+}
+
+.embedFull-1HGV2S { /* attachment preview background */
+    background: transparent !important;
+    border-left: 4px solid rgba(0,0,0,1);
+}
+
+/*Chat bubbles END */
