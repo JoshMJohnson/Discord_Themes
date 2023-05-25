@@ -2,7 +2,7 @@
  * @name Lord of the Rings - The Ring
  * @author Josh Johnson
  * @description The one ring to rule them all
- * @version 3
+ * @version 4
  */
 
  @import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
@@ -18,7 +18,7 @@
  :root {
      --avatar-size: 55px;
      --background-primary: transparent; /* primary background color */
-     --background-secondary: rgba(0,0,0,.4); /* secondary background color */
+     --background-secondary: rgba(0,0,0,.6); /* secondary background color */
 
      --accent-hue: 156;
 	--accent-saturation: 77.5%;
@@ -26,10 +26,10 @@
 	--accent-opacity: 1;
 	--accent-text-color: #000; 
 
-	--sidebar-color: rgba(0,0,0,0.4);
+	--sidebar-color: rgba(0,0,0,0.6);
 	--main-content-color: rgba(0,0,0,0.2); 
 
-	--message-color: rgba(0,0,0,0.4);
+	--message-color: rgba(0,0,0,0.6);
 	--message-radius: 8px;
 	--message-padding-top: 8px;
 	--message-padding-side: 8px; 
@@ -45,7 +45,7 @@
 	--textarea-text-color: rgba(255, 140, 0, 1);
 	--textarea-radius: 22px;  
 
-	--card-color: rgba(0,0,0,0.4);
+	--card-color: rgba(0,0,0,0.6);
 	--card-color-hover: rgba(0,0,0,0.5);
 	--card-color-select: rgba(0,0,0,0.7); 
 
@@ -74,7 +74,7 @@
     --notification-color: rgba(255, 140, 0, 1);
     --list-item-radius: var(--app-radius);
     --textarea-placeholder-color: rgba(255, 140, 0, 1);
-    --textarea-block-color: rgba(0,0,0,0.4);
+    --textarea-block-color: rgba(0,0,0,0.6);
     --textarea-block-text-color: rgba(255, 140, 0, 1);
     --input-height: 36px;
     --input-radius: calc(var(--input-height) / 2);
@@ -143,8 +143,8 @@
  
  #app-mount .app-2CXKsg {
      background-image: linear-gradient(45deg,
-     rgba(0, 0, 0, 0.2) 0%,
-     rgba(82, 82, 82, 0.735) 100%),
+     rgba(0, 0, 0, .3) 100%,
+     rgba(0, 0, 0, 1) 0%),
      url(https://wallpapercave.com/wp/wp7486199.png);
      background-size: 100% 100%;
  }
@@ -360,7 +360,7 @@
  }
  
  .theme-dark .checked-1pZh2h[style*="border-color"] path {
-     fill: rgba(0,0,0,.4);
+     fill: rgba(0,0,0,.6);
  }
  
  .item-2idW98[aria-checked="true"] {
@@ -400,7 +400,7 @@
  }
 
  .container-2nx-BQ path {
-     fill: rgba(0,0,0,.4);
+     fill: rgba(0,0,0,.6);
  }
 
  .bd-switch .bd-switch-symbol path { /* 'x' marker on themes box */
@@ -429,7 +429,7 @@
  }
  
  .container-2nx-BQ:not([style*="218"]) path {
-     fill: rgba(0,0,0,.4);
+     fill: rgba(0,0,0,.6);
  }
  
  /* Regular Switch Activated */
@@ -499,13 +499,13 @@
  
  /* channels within the server */
  .theme-dark .wrapper-NhbLHG:hover .content-1gYQeQ,
- .theme-dark .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 {
+ .theme-dark .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 { /* channel hover */
     background-color: rgba(0,0,0,.7);
  }
  
  .theme-dark .wrapper-NhbLHG:hover .actionIcon-2Hi9ZG,
  .theme-dark .wrapper-NhbLHG:hover .name-28HaxV,
- .theme-dark .wrapper-NhbLHG:hover .icon-2W8DHg {
+ .theme-dark .wrapper-NhbLHG:hover .icon-2W8DHg { /* channel hover */
      color: rgba(255,140,0,1);
  }
  
@@ -839,7 +839,7 @@
  }
  
  .theme-dark .iconForeground-2P-YQq {
-     fill: rgba(0,0,0,.4);
+     fill: rgba(0,0,0,.6);
  }
  
  .theme-dark .selected-3H3-RC {
@@ -1269,7 +1269,7 @@
  }
  
  .channelTextArea-1FufC0 { /* post bar on bottom of server channel */
-     background: rgba(0, 0, 0, .4);
+     background: rgba(0, 0, 0, .6);
  }
  
  .cozy-VmLDNB .header-2jRmjb {
@@ -1359,7 +1359,7 @@
  .theme-dark .mentioned-Tre-dv,
  .message-2CShn3.mentioned-Tre-dv.selected-2LX7Jy,
  .mouse-mode.full-motion .mentioned-Tre-dv:hover { /* indicator when someone tags your user name */
-     background: rgba(0,0,0,0.4);
+     background: rgba(0,0,0,0.6);
  }
 
  .emptyChannelIcon-1YdEz2 { /* empty channel hash icon */
@@ -1827,7 +1827,7 @@
  }
  
  .theme-dark .markDash-yk2kJ- {
-     background: rgba(0,0,0,.4);
+     background: rgba(0,0,0,.6);
  }
  
  .grabber-2GQyvM {
@@ -1849,7 +1849,7 @@
  }
  
  .theme-dark .bd-addon-list .bd-addon-card { /* each theme node */
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, .6);
      border: 2px solid rgba(0,0,0, 1);
  }
  
@@ -2398,7 +2398,7 @@
     --profile-gradient-primary-color: transparent; /* direct message profile right main background */
     --profile-gradient-secondary-color: transparent; /* direct message profile right second background */
     --profile-avatar-border-color: transparent;
-    --profile-body-background-color: rgba(0,0,0,.4); /* direct message profile right info background */
+    --profile-body-background-color: rgba(0,0,0,.6); /* direct message profile right info background */
   }
 
   .profileColors-2AgAV4 * { /* direct message profile right heading */
@@ -2511,7 +2511,7 @@
     margin: 16px 5px 0 70px;
     padding: 8px 10px;
     padding-bottom: 15px;
-    background: linear-gradient(135deg, rgba(0,0,0,.4) 0%, rgba(0,0,0,.4) 50%, rgba(0,0,0,.4) 100%);
+    background: linear-gradient(135deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,.6) 50%, rgba(0,0,0,.6) 100%);
     border-bottom: none !important;
     overflow: visible !important;
     border-radius: 0 10px 10px 0px;
@@ -2527,7 +2527,7 @@
     margin: -6px 0 0 0;
     border: 6px solid transparent;
     border-color: transparent;
-    border-right-color: rgba(0,0,0,.4);
+    border-right-color: rgba(0,0,0,.6);
     pointer-events: none;
     transform: rotate(135deg);
 }
@@ -2539,7 +2539,7 @@
 
 .message-2CShn3:not(.groupStart-3Mlgv1) { /* grouping messages when a user sends mulitple messages in a row */
     margin: 0 5px 0 70px;
-    background: linear-gradient(135deg, rgba(0,0,0,.4) 0%, rgba(0,0,0,.4) 50%, rgba(0,0,0,.4) 100%);
+    background: linear-gradient(135deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,.6) 50%, rgba(0,0,0,.6) 100%);
     overflow: hidden;
 }
 
