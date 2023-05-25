@@ -864,33 +864,33 @@
 
  
  .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
-     background-color: #2d62d5;
+     background-color: rgba(34,139,34,1);
  }
  
  .lookFilled-yCfaCM.colorBrand-I6CyqQ,
  .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled {
-     background-color: #4570e6;
+     background-color: rgba(34,139,34,1);
      color: rgba(0,255,0,1);
  }
  
  .lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover {
-     border-color: #2d62d5;
+     border-color: rgba(34,139,34,1);
  }
  
  .lookOutlined-3yKVGo.colorBrand-I6CyqQ {
      color: rgba(34,139,34,1) !important;
-     border-color: #4570e6;
+     border-color: rgba(34,139,34,1);
  }
  
  .lookInverted-2mDUMi.colorBrand-I6CyqQ {
      color: rgba(0,255,0,1);
      background-color: transparent;
-     border: 2px solid #4570e6;
+     border: 2px solid rgba(34,139,34,1);
  }
  
  .lookInverted-2mDUMi.colorBrand-I6CyqQ:hover {
      color: rgba(0,255,0,1);
-     background-color: #4570e6 !important;
+     background-color: rgba(34,139,34,1) !important;
  }
  
  .button-f2h6uQ {
@@ -1119,7 +1119,7 @@
  
  .theme-dark .keybindShortcut-3zF1P9 span:active,
  .theme-dark .dim-2Uxgxb span:active {
-     color: #c5c5c6;
+     color: rgba(34,139,34,1);
  }
  
  .keybindShortcut-3zF1P9 span {
@@ -1500,7 +1500,7 @@
  }
  
  .colorDefault-CDqZdO .checkbox-hADx5o {
-     color: rgba(220,220,220, 0.26) !important;
+     color: rgba(34,139,34,.5) !important;
  }
  
  .colorDefault-CDqZdO.focused-3qFvc8 .check-3HZJs4 {
@@ -1711,11 +1711,11 @@
  }
 
  .lookInverted-2mDUMi.colorBrand-I6CyqQ:disabled {
-    background-color: #4570e6;
+    background-color: rgba(34,139,34,1);
 }
  
 .selectedBackground-1t6xXq {
-     background-color: #4570e6 !important;
+     background-color: rgba(34,139,34,1) !important;
      color: rgba(34,139,34,1) !important;
  }
  
@@ -2086,8 +2086,8 @@
  
  /* Links */
  
- .theme-dark .embedTitleLink-1QbYA- {
-     color: #66cff9 !important;
+ .theme-dark .embedTitleLink-1QbYA- { /* link text */
+     color: rgba(34,139,34,.5) !important;
  }
  
  .standardSidebarView-E9Pc3j a,
@@ -2111,16 +2111,16 @@
  .theme-dark .container-1ILvLB section a,
  .fakeLink-2FvUR7,
  .metadataContent-lalfZ3 a,
- .editChannelButton-1dYN-G {
-     color: #66cff9;
+ .editChannelButton-1dYN-G { /* link text */
+     color: rgba(34,139,34,.5);
  }
  
  .lookLink-15mFoz.colorLink-1Md3RZ:hover .contents-3ca1mk {
      background-image: linear-gradient(0deg,
      transparent,
      transparent 1px,
-     #66cff9 0,
-     #66cff9 2px,
+     rgba(34,139,34,.5) 0,
+     rgba(34,139,34,.5) 2px,
      transparent 0);
  }
  
