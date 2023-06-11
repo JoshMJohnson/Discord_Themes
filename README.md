@@ -7,7 +7,7 @@
 [Lord of the Rings: The Ring](#lord-of-the-rings-the-ring)<br>
 [NF](#nf)<br>
 [Star Wars: Darth Traya](#star-wars-darth-traya)<br>
-[Shoto Todoroki](#shoto-todoroki)<br><br><br><br><br><br><br><br>
+[Shoto Todoroki](#shoto-todoroki)<br><br><br><br><br><br><br><br><br><br>
 
 <!-- custom theme previews -->
 <h2 align='center'>Theme Previews</h2>
