@@ -147,7 +147,7 @@
      background-image: linear-gradient(45deg,
      rgba(0, 0, 0, .1) 100%,
      rgba(0, 0, 0, 1) 0%),
-     url(https://c4.wallpaperflare.com/wallpaper/139/340/929/fantasy-art-artwork-lightsaber-star-wars-wallpaper-preview.jpg);
+     url(https://drive.google.com/uc?export=view&id=1uAEMcEzWwPirw32AX8u9eIHJZGEFmEsX);
      background-size: 100% 100%;
  }
  
@@ -502,7 +502,7 @@
  
  /* channels within the server */
  .theme-dark .wrapper-NhbLHG:hover .content-1gYQeQ,
- .theme-dark .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 {
+ .theme-dark .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 { /* channel hover */
     background-color: rgba(0, 0,0,.7);
  }
 
@@ -514,7 +514,7 @@
  
  .theme-dark .wrapper-NhbLHG:hover .actionIcon-2Hi9ZG,
  .theme-dark .wrapper-NhbLHG:hover .name-28HaxV,
- .theme-dark .wrapper-NhbLHG:hover .icon-2W8DHg {
+ .theme-dark .wrapper-NhbLHG:hover .icon-2W8DHg { /* channel hover */
      color: rgba(255, 0,0,1);
  }
  

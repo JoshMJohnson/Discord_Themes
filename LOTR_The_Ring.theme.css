@@ -145,7 +145,7 @@
      background-image: linear-gradient(45deg,
      rgba(0, 0, 0, .3) 100%,
      rgba(0, 0, 0, 1) 0%),
-     url(https://wallpapercave.com/wp/wp7486199.png);
+     url(https://drive.google.com/uc?export=view&id=17zpjraT2EsS2yyVUXa8SCnDo-TZ6oHbG);
      background-size: 100% 100%;
  }
  
@@ -515,7 +515,7 @@
  
  .theme-dark .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ,
  .theme-dark .wrapper-NhbLHG.modeSelected-3DmyhH:hover .content-1gYQeQ,
- .theme-dark .listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42 {
+ .theme-dark .listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42 { /* channel active background color */
      background-color: rgba(0,0,0,.9) !important;
  }
  
