@@ -7,17 +7,11 @@
 [Lord of the Rings: The Ring](#lord-of-the-rings-the-ring)<br>
 [NF](#nf)<br>
 [Star Wars: Darth Traya](#star-wars-darth-traya)<br>
-[Shoto Todoroki](#shoto-todoroki)<br><br><br><br><br><br><br><br><br><br>
+[Shoto Todoroki](#shoto-todoroki)<br>
+[Dark Green](#dark-green)<br><br><br><br><br><br><br><br><br><br>
 
 <!-- custom theme previews -->
 <h2 align='center'>Theme Previews</h2>
-
-<h3 align='center'>Dark Green</h3>
-<p align='center'><a href='https://drive.google.com/file/d/1JM-sruVTm7nqaTh6ZSDjkGHVy21OCU7y/view?usp=share_link'>Download Dark Green Theme</a></p>
-<p align='center'>
-    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Dark_Green.png" alt="Dark Green" width="600" height="400">
-    <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
-</p>
 
 <h3 align='center'>Green Arrow</h3>
 <p align='center'><a href='https://drive.google.com/file/d/1f-OklJAREOH-3064bt9GJTRpy9fvb4rc/view?usp=share_link'>Download The Green Arrow Theme</a></p>
@@ -51,5 +45,12 @@
 <p align='center'><a href='https://drive.google.com/file/d/19vYIQlxmHaHikmtNXvmBgbkSrsaJbz1-/view?usp=share_link'>Download Shoto Todoroki Theme</a></p>
 <p align='center'>
     <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Shoto_Todoroki.png" alt="Shoto Todoroki Theme" width="600" height="400">
+    <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
+</p>
+
+<h3 align='center'>Dark Green</h3>
+<p align='center'><a href='https://drive.google.com/file/d/1JM-sruVTm7nqaTh6ZSDjkGHVy21OCU7y/view?usp=share_link'>Download Dark Green Theme</a></p>
+<p align='center'>
+    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Dark_Green.png" alt="Dark Green" width="600" height="400">
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
