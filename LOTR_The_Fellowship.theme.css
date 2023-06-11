@@ -1,12 +1,12 @@
 /**
- * @name LOTR - The Shire Door
+ * @name LOTR - The Fellowship
  * @author Josh Johnson
- * @description From inside Bilbo's home, looking out
+ * @description The Fellowship of the Ring set out for Mordor as Frodo Baggins being the ring bearer
  * @version 1
  */
 
  @import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
- 
+
  body,
  div,
  span,
@@ -17,8 +17,8 @@
  
  :root {
      --avatar-size: 55px;
-     --background-primary: transparent; 
-     --background-secondary: transparent; 
+     --background-primary: transparent; /* primary background color */
+     --background-secondary: rgba(0,0,0,.6); /* secondary background color */
 
      --accent-hue: 156;
 	--accent-saturation: 77.5%;
@@ -144,12 +144,12 @@
  
  #app-mount .app-2CXKsg {
      background-image: linear-gradient(45deg,
-     rgba(0, 0, 0, 0.4) 100%,
-     rgba(82, 82, 82, 0.735) 100%),
-     url(https://lp-cms-production.imgix.net/2022-03/LPT0113_015.jpg);
+     rgba(0, 0, 0, .3) 100%,
+     rgba(0, 0, 0, 1) 0%),
+     url(https://drive.google.com/uc?export=view&id=1OVsEWuTAuvcVDFwbxrw4fWgSUUu4Mabn);
      background-size: 100% 100%;
  }
- 
+
  .container-2o3qEW,
  .theme-dark .layer-86YKbF,
  .theme-dark .wrapper-1_HaEi,
@@ -2612,3 +2612,48 @@
   .menu-KSaHL1:before {
     display: none;
   }
+
+      /*Chat bubbles START */
+.message-2CShn3.groupStart-3Mlgv1 { /* adjusts spacing of chats */
+    position: relative;
+    margin: 16px 5px 0 70px;
+    padding: 8px 10px;
+    padding-bottom: 15px;
+    background: linear-gradient(135deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,.6) 50%, rgba(0,0,0,.6) 100%);
+    border-bottom: none !important;
+    overflow: visible !important;
+    border-radius: 0 10px 10px 0px;
+}
+
+.cozy-VmLDNB.wrapper-30-Nkg:after, .previewMessage-2g_aBv .message-2CShn3:not(.groupStart-3Mlgv1):before { /* top left marker pointing to user icon */
+    content: '';
+    position: absolute;
+    width: 0 !important;
+    height: 0;
+    top: 0px !important;
+    left: -6px !important;
+    margin: -6px 0 0 0;
+    border: 6px solid transparent;
+    border-color: transparent;
+    border-right-color: rgba(0,0,0,.6);
+    pointer-events: none;
+    transform: rotate(135deg);
+}
+
+.message-2CShn3.groupStart-3Mlgv1 .avatar-2e8lTP, .systemMessage-1H1Z20.message-2CShn3:not(.groupStart-3Mlgv1) .avatar-2e8lTP { /* user icon placement */
+    top: 0px;
+    left: -60px;
+}
+
+.message-2CShn3:not(.groupStart-3Mlgv1) { /* grouping messages when a user sends mulitple messages in a row */
+    margin: 0 5px 0 70px;
+    background: linear-gradient(135deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,.6) 50%, rgba(0,0,0,.6) 100%);
+    overflow: hidden;
+}
+
+.embedFull-1HGV2S { /* attachment preview background */
+    background: transparent !important;
+    border-left: 4px solid rgba(0,0,0,1);
+}
+
+/*Chat bubbles END */
