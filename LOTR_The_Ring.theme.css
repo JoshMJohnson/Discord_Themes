@@ -499,13 +499,13 @@
  
  /* channels within the server */
  .theme-dark .wrapper-NhbLHG:hover .content-1gYQeQ,
- .theme-dark .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 { /* channel hover */
+ .theme-dark .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 { /* channel hover background color */
     background-color: rgba(0,0,0,.7);
  }
  
  .theme-dark .wrapper-NhbLHG:hover .actionIcon-2Hi9ZG,
  .theme-dark .wrapper-NhbLHG:hover .name-28HaxV,
- .theme-dark .wrapper-NhbLHG:hover .icon-2W8DHg { /* channel hover */
+ .theme-dark .wrapper-NhbLHG:hover .icon-2W8DHg { /* channel hover font color */
      color: rgba(255,140,0,1);
  }
  
@@ -604,10 +604,6 @@
      left: -1px;
      top: -1px !important;
  }
- 
- 
- 
-
  
  #app-mount .isUnread-3Lojb- .content-3spvdd {
      color: rgba(255, 140, 0, 1);
@@ -858,13 +854,11 @@
  .theme-dark .placeholder-1rCBhr { /* post bar on bottom of server channel */
      color: rgba(255, 140, 0,1);
  }
- 
- 
+  
  .liveRed-lUmv1v {
      background-color: rgba(0, 0, 0, .7) !important;
  }
 
- 
  .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
      background-color: rgba(0, 0, 0, .7);
  }
@@ -1850,7 +1844,7 @@
  
  .theme-dark .bd-addon-list .bd-addon-card { /* each theme node */
     background-color: rgba(0, 0, 0, .6);
-     border: 2px solid rgba(0,0,0, 1);
+    border: 2px solid rgba(0,0,0, 1);
  }
  
  /* Friends and DMS (Last Part) */
