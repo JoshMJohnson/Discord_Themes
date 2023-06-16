@@ -2,10 +2,16 @@
  * @name LOTR - The Fellowship
  * @author Josh Johnson
  * @description The Fellowship of the Ring set out for Mordor as Frodo Baggins being the ring bearer
- * @version 1
+ * @version 2
  */
 
  @import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
+
+ /*
+  rgba(255,255,255,1) font color white
+  rgba(0,0,0,.5); background hover
+  rgba(0,0,0,.8); background active
+  */
 
  body,
  div,
@@ -18,7 +24,7 @@
  :root {
      --avatar-size: 55px;
      --background-primary: transparent; /* primary background color */
-     --background-secondary: rgba(0,0,0,.6); /* secondary background color */
+     --background-secondary: rgba(0,0,0,.4); /* secondary background color */
 
      --accent-hue: 156;
 	--accent-saturation: 77.5%;
@@ -50,12 +56,12 @@
 	--card-color-select: rgba(0,0,0,0.7); 
 
     /* active user name */
-	--interactive-normal: #aaa;
-	--interactive-hover: #ddd;
-	--interactive-active: #fff;
-	--interactive-muted: #777; 
-	--background-modifier-hover: rgba(255,255,255,0.075);
-	--background-modifier-selected: rgba(255,255,255,0.125);
+	--interactive-normal: rgba(255,255,255,.5); /* channel not active font color */
+	--interactive-hover: rgba(255,255,255,1); /* channel hover font color */ 
+	--interactive-active: rgba(255,255,255,1); /* channel active font color */
+	--interactive-muted: rgba(255,255,255,1); /* channel muted font color */
+	--background-modifier-hover: rgba(0,0,0,.5); /* hover direct message indicator background */
+	--background-modifier-selected: rgba(0,0,0,.8); /* active direct message indicator background */
 
     /* sidebar */
     --accent-hsl: var(--accent-hue),calc(var(--accent-saturation) * var(--saturation-factor)),var(--accent-lightness);
@@ -118,6 +124,8 @@
     --scrollbar-opacity: 0.2;
     --scrollbar-opacity-hover: 0.3;
     --scrollbar-width: 10px;
+    --header-primary: rgba(255,255,255,1); /* header primary font color */
+    --header-secondary: rgba(255,255,255,1);  /* header secondary font color */
  }
 
  .container-YkUktl,
@@ -198,9 +206,9 @@
  }
  
  
- .item-2LIpTv {
+ .item-2LIpTv { /* server left indicator */
      width: 17px;
-     background-color: rgba(220,220,220,.5);
+     background-color: rgba(0,0,0,.8);
      border-radius: 30px;
      margin-left: 5px;
      margin-top: -12px;
@@ -385,9 +393,9 @@
      background-color: transparent;
  }
 
- .bd-switch-body {
+ .bd-switch-body { /* settings active/deactive switch */
     border-radius: 5px;
-    background-color: transparent;
+    background-color: rgba(0,0,0,1);
  }
  
  .container-2nx-BQ rect {
@@ -395,7 +403,7 @@
      rx: 5;
  }
  
- .bd-switch-body .bd-switch-slider  rect {
+ .bd-switch-body .bd-switch-slider  rect { /* 'x' marker background color on themes box */
      fill: red;
      rx: 5;
  }
@@ -404,7 +412,7 @@
      fill: white;
  }
 
- .bd-switch .bd-switch-symbol path {
+ .bd-switch .bd-switch-symbol path { /* 'x' marker on themes box */
     fill: white;
 }
  
@@ -416,8 +424,8 @@
      background-color: rgba(220,220,220,.5) !important;
  }
 
- .bd-switch input:checked+.bd-switch-body {
-    background-color: rgba(220,220,220,.5);
+ .bd-switch input:checked+.bd-switch-body { /* node checked to active */
+    background-color: rgba(0,0,0,1);
  }
  
  .container-2nx-BQ:not([style*="218"]) rect {
@@ -425,7 +433,7 @@
      rx: 5;
  }
 
- .bd-switch input:checked+.bd-switch-body .bd-switch-slider rect {
+ .bd-switch input:checked+.bd-switch-body .bd-switch-slider rect { /* active theme node checkmark background */
     fill: #11df3d;
  }
  
@@ -490,19 +498,24 @@
  }
  
  
- *::-webkit-input-placeholder {
-     color: white !important;
- }
+ *::-webkit-input-placeholder { /* placeholder info */
+    color: rgba(255,255,255,1) !important;
+}
+
+* { /* includes all of the left out content */
+   color: rgba(255,255,255,1);
+}
  
+/* channels within the server */
  .theme-dark .wrapper-NhbLHG:hover .content-1gYQeQ,
- .theme-dark .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 {
-    background-color: rgba(220,220,220,.2);
+ .theme-dark .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 { /* channel hover background color */
+    background-color: rgba(0,0,0,.5);
  }
  
  .theme-dark .wrapper-NhbLHG:hover .actionIcon-2Hi9ZG,
  .theme-dark .wrapper-NhbLHG:hover .name-28HaxV,
- .theme-dark .wrapper-NhbLHG:hover .icon-2W8DHg {
-     color: rgba(220,220,220,.5);
+ .theme-dark .wrapper-NhbLHG:hover .icon-2W8DHg { /* channel hover font color */
+     color: rgba(255,255,255,1);
  }
  
  .theme-dark .wrapper-NhbLHG.modeUnread-3Cxepe .icon-2W8DHg {
@@ -511,8 +524,8 @@
  
  .theme-dark .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ,
  .theme-dark .wrapper-NhbLHG.modeSelected-3DmyhH:hover .content-1gYQeQ,
- .theme-dark .listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42 {
-     background-color: rgba(220,220,220,.5) !important;
+ .theme-dark .listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42 { /* channel active background color */
+     background-color: rgba(0,0,0,.8) !important;
  }
  
  .theme-dark .wrapper-NhbLHG.modeSelected-3DmyhH .actionIcon-2Hi9ZG,
@@ -531,12 +544,12 @@
      border-right-color: transparent;
  }
  
- .users-2JoyGL {
-     background-color: rgba(220,220,220,.2);
+ .users-2JoyGL { /* number of current players in lobby */
+     background-color: rgba(0,0,0,.5);
  }
  
- .total-1c5KCN {
-     background-color: rgba(220,220,220,.5);
+ .total-1c5KCN { /* number of max players allowed in lobby */
+     background-color: rgba(0,0,0,.8);
      width: 28px;
  }
  
@@ -576,14 +589,14 @@
      display: none;
  }
  
- .childWrapper-1j_1ub {
-     background-color: transparent;
+ .childWrapper-1j_1ub { /* channel icon text and background */
+     background-color: rgba(0,0,0,.7);
      color: white;
  }
  
  .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
- .wrapper-3kah-n:hover .childWrapper-1j_1ub {
-     background-color: rgba(220,220,220,.5);
+ .wrapper-3kah-n:hover .childWrapper-1j_1ub { /* server active icon */
+     background-color: rgba(0,0,0,1);
  }
  
  .icon-2xnN2Y {
@@ -599,10 +612,6 @@
      left: -1px;
      top: -1px !important;
  }
- 
- 
- 
-
  
  #app-mount .isUnread-3Lojb- .content-3spvdd {
      color: white;
@@ -630,8 +639,8 @@
      background-color: transparent;
  }
 
- .search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root {
-    color: white;
+ .search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root { /* search bar */
+    color: rgba(255,255,255,1);
 }
  
  .theme-dark .resultsGroup-cfY57t:before {
@@ -649,8 +658,8 @@
      color: rgba(220,220,220,.5);
  }
  
- .theme-dark .container-2McqkF {
-     background-color: transparent;
+ .theme-dark .container-2McqkF { /* search bar dropdown section */
+     background-color: rgba(0,0,0,1);
  }
  
  .theme-dark .elevationBorderHigh-3drnJX {
@@ -757,15 +766,16 @@
      height: 50px;
  }
  
- .numberBadge-37OJ3S {
-     background-color: rgba(220,220,220,.5) !important;
-     border: 1px solid rgba(220,220,220, 0.63);
+ .numberBadge-37OJ3S { /* notification number on channel icon */
+     background-color: rgba(0,0,0,1) !important;
+     border: 1px solid rgba(255,255,255,1);
+     color: rgba(255,255,255,1);
  }
  
- #app-mount .content-3spvdd {
-     color: silver;
+ #app-mount .content-3spvdd { /* date display within channels */
+     color: rgba(255,255,255,1);
      padding: 4px 7px;
-     background-color: rgba(220,220,220, 0.1);
+     background-color: rgba(0,0,0,1);
  }
  
  .divider-2rZFJK {
@@ -849,8 +859,8 @@
      background-color: transparent;
  }
  
- .theme-dark .placeholder-1rCBhr {
-     color: rgba(220,220,220,.5);
+ .theme-dark .placeholder-1rCBhr { /* post bar on bottom of server channel */
+     color: rgba(255,255,255,1);
  }
  
  
@@ -1262,8 +1272,8 @@
      overflow: visible;
  }
  
- .channelTextArea-1FufC0 {
-     background: transparent;
+ .channelTextArea-1FufC0 { /* post bar on bottom of server channel */
+     background: rgba(0,0,0,.4);
  }
  
  .cozy-VmLDNB .header-2jRmjb {
@@ -1272,12 +1282,11 @@
      position: relative;
  }
  
- .mentioned-Tre-dv .header-2jRmjb {
-     left: 75px;
-     position: relative;
+ .mentioned-Tre-dv .header-2jRmjb { /* user name (header) on post tagging your user */
+    left: 0px;
+    position: relative;
  }
- 
- 
+  
  .preview-QJ3OG3 {
     background-color: transparent;
  }
@@ -1296,9 +1305,9 @@
      color: white;
  }
  
- .markup-eYLPri {
+ .markup-eYLPri { /* plain text inside of server channels */
      font-size: 0.823rem;
-     color: white;
+     color: rgba(255,255,255,1);
      top: 3px;
      text-shadow: 0 0 5px black, 0 0 25px black, 0 0 25px black, 0 0 5px black,
      0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;
@@ -1311,15 +1320,15 @@
  }
  
  .container-2sjPya>*,
- .mentioned-Tre-dv {
-     left: calc(var(--avatar-size) + -32px);
-     position: relative;
+ .mentioned-Tre-dv { /* chat bubble when a user tags currently logged in user */
+    left: 0px;
+    position: relative;
  }
  
- .mentioned-Tre-dv .markup-eYLPri {
-     left: 51px;
-     top: revert;
- }
+ .mentioned-Tre-dv .markup-eYLPri { /* content text when a user tags currently logged in user */
+    left: 0px;
+    top: revert;
+}
  
  .embedContentInner-FBnk7v.markup-eYLPri {
      left: 6px !important;
@@ -1353,23 +1362,25 @@
  
  .theme-dark .mentioned-Tre-dv,
  .message-2CShn3.mentioned-Tre-dv.selected-2LX7Jy,
- .mouse-mode.full-motion .mentioned-Tre-dv:hover {
-     background: rgba(220,220,220, 0.276);
-     border: 2px solid rgba(220,220,220, 0.146);
-     padding: 14px;
+ .mouse-mode.full-motion .mentioned-Tre-dv:hover { /* indicator when someone tags your user name */
+    background: rgba(0,0,0,.6);
  }
 
- .emptyChannelIcon-1YdEz2 {
-    background-color: rgba(220,220,220,.5);
+ .emptyChannelIcon-1YdEz2 { /* empty channel hash icon */
+    background-color: rgba(0,0,0,1);
 }
  
  .mentioned-Tre-dv:before {
      display: none;
  }
  
- .theme-dark .mentioned-Tre-dv .mention:hover {
-     color: rgba(220,220,220,.5) !important;
- }
+ .theme-dark .mentioned-Tre-dv .mention:hover { /* hover over a tag of your user name */
+    color: rgba(255,255,255,.8) !important;
+}
+
+.theme-dark .mentioned-Tre-dv .mention { /* tag of your user name */
+   color: rgba(255,255,255,.5) !important;
+}
 
  .button-1kija8 {
     color: lightgreen;
@@ -1380,18 +1391,22 @@
      background-color: rgba(220,220,220, 0.776);
  }
  
- .theme-dark .wrapper-1ZcZW- {
-     color: white;
-     background-color: rgba(220,220,220, 0.276);
- }
+ .theme-dark .wrapper-1ZcZW- { /* tags for other users */
+    color: rgba(255,255,255,.5) !important;
+    background-color: transparent;
+}
+
+.theme-dark .wrapper-1ZcZW-:hover { /* tags for other users hover */
+   color: rgba(255,255,255,.8) !important;
+}
 
  .mention {
     padding: 2px 7px;
  }
  
- .theme-dark .mentioned-Tre-dv .mention {
+ .theme-dark .mentioned-Tre-dv .mention { /* when someone tags current user */
     background-color: transparent;
-     padding: 3.82px;
+    padding: 0px;
  }
  
  .botTagRegular-kpctgU,
@@ -1416,16 +1431,18 @@
      color: white;
  }
  
- .bd-toast.toast-success {
-     background-color: #C0C0C0;
-     border: 2px solid black;
+ .bd-toast.toast-success { /* pop up success notification */
+    background-color: rgba(0,0,0,.9);
+    border: 2px solid rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
  }
  
- .bd-toast {
-     background: #1f1f21;
-     border-radius: 12px;
-     box-shadow: none;
-     color: #fff;
+ .bd-toast { /* pop up notification */
+    background-color: rgba(0,0,0,.9);
+    border: 2px solid rgba(0,0,0,1);
+    border-radius: 12px;
+    box-shadow: none;
+    color: rgba(255,255,255,1);
  }
  
  .theme-dark .message-G6O-Wv {
@@ -1532,12 +1549,13 @@
      background: transparent;
  }
  
- .theme-dark .closeButton-PCZcma {
-     border-color: black;
+ .theme-dark .closeButton-PCZcma { /* esc button on top right corner */
+    border-color: rgba(0,0,0,1);
+    background: rgba(0,0,0,.3);
  }
  
- .theme-dark .closeButton-PCZcma:hover {
-     background-color: rgba(220,220,220, 0.7);
+ .theme-dark .closeButton-PCZcma:hover { /* esc button on top right corner on hover */
+    background-color: rgba(0,0,0,1);
  }
  
  .theme-dark .inputPrefix-1VU7MB {
@@ -1807,9 +1825,9 @@
     color: lightgreen;
 }
  
- .theme-dark .bd-addon-list .bd-addon-header {
-     color: white;
-     background: transparent;
+ .theme-dark .bd-addon-list .bd-addon-header { /* theme node header */
+     color: rgba(255,255,255,1);
+     background: rgba(0,0,0,.8);
  }
  
  .theme-dark .nowPlaying-3UpuKc {
@@ -1828,19 +1846,19 @@
  }
  
  .bd-button,
- .bd-addon-views .bd-view-button.selected {
-     background: rgba(220,220,220,.5) !important;
-     text-shadow: 0 0 8px black, 0 0 8px black, 0 0 8px black;
+ .bd-addon-views .bd-view-button.selected { /* bottom right box that holds edit and delete icons */
+    background: rgba(0,0,0,.8) !important;
+    text-shadow: 0 0 8px black, 0 0 8px black, 0 0 8px rgba(0, 0, 0, 1);
+    border: 1px solid rgba(255,255,255,1);
  }
  
  .theme-dark .bd-meta {
      color: silver;
  }
  
- .theme-dark .bd-addon-list .bd-addon-card {
-    background-color: transparent;
-     color: white;
-     border: 2px solid rgba(220,220,220, 0.93);
+ .theme-dark .bd-addon-list .bd-addon-card { /* each theme node */
+    background-color: rgba(0,0,0,.5);
+    border: 2px solid rgba(255,255,255,1);
      /* 2nd Color of Monochromatic Colors */;
  }
  
@@ -2198,13 +2216,6 @@
      background-color: transparent;
  }
  
- 
- 
- /* Main Color */
- 
- /* .color-primary { rgba(220,220,220,.5)  rgba(220,220,220, 1.0); }
-   /* Main Color */
- 
  /* New Things Here */
  
  .colorDefault-CDqZdO .radioSelection-1UHp0b {
@@ -2393,14 +2404,15 @@
 
 /** USER POPOUT */
 .profileColors-2AgAV4 {
-    --profile-gradient-primary-color: rgba(230,230,230,.1);
-    --profile-gradient-secondary-color: rgba(230,230,230,.1);
-    --profile-avatar-border-color: rgba(230,230,230,.1);
-    --profile-body-background-color: rgba(230,230,230,.3);
+    --profile-gradient-primary-color: transparent; /* direct message profile right main background */
+    --profile-gradient-secondary-color: transparent; /* direct message profile right second background */
+    --profile-avatar-border-color: transparent;
+    --profile-body-background-color: rgba(0,0,0,.6); /* direct message profile right info background */
   }
 
-  .profileColors-2AgAV4 * {
-    text-shadow: none;
+  .profileColors-2AgAV4 * { /* direct message profile right heading */
+    text-shadow: none; 
+    color: rgba(255,255,255,1);
   }
 
   .profileColors-2AgAV4 svg {
@@ -2613,13 +2625,13 @@
     display: none;
   }
 
-      /*Chat bubbles START */
+/*Chat bubbles START */
 .message-2CShn3.groupStart-3Mlgv1 { /* adjusts spacing of chats */
     position: relative;
     margin: 16px 5px 0 70px;
     padding: 8px 10px;
     padding-bottom: 15px;
-    background: linear-gradient(135deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,.6) 50%, rgba(0,0,0,.6) 100%);
+    background: linear-gradient(135deg, rgba(0,0,0,.4) 0%, rgba(0,0,0,.4) 50%, rgba(0,0,0,.4) 100%);
     border-bottom: none !important;
     overflow: visible !important;
     border-radius: 0 10px 10px 0px;
@@ -2635,7 +2647,7 @@
     margin: -6px 0 0 0;
     border: 6px solid transparent;
     border-color: transparent;
-    border-right-color: rgba(0,0,0,.6);
+    border-right-color: rgba(0,0,0,.4);
     pointer-events: none;
     transform: rotate(135deg);
 }
@@ -2647,7 +2659,7 @@
 
 .message-2CShn3:not(.groupStart-3Mlgv1) { /* grouping messages when a user sends mulitple messages in a row */
     margin: 0 5px 0 70px;
-    background: linear-gradient(135deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,.6) 50%, rgba(0,0,0,.6) 100%);
+    background: linear-gradient(135deg, rgba(0,0,0,.4) 0%, rgba(0,0,0,.4) 50%, rgba(0,0,0,.4) 100%);
     overflow: hidden;
 }
 
