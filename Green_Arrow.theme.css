@@ -3,6 +3,7 @@
  * @author Josh Johnson
  * @description The Green Arrow of Starling city
  * @version 2
+ * @source https://github.com/JoshMJohnson/Discord_Themes#custom-made-discord-themes
  */
 
  @import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
@@ -930,8 +931,7 @@
      border-radius: 12px;
      background: url(https://images7.alphacoders.com/922/922244.png) 10% / cover;
  }
- 
- 
+  
  .theme-dark .bodyInnerWrapper-2bQs1k,
  .theme-dark .footer-3naVBw {
      background-color: rgba(34,139,34,.3);
@@ -941,8 +941,7 @@
  .body-1Ukv50 {
      background-color: rgba(34,139,34,.3);
  }
- 
- 
+  
  .bodyTitle-2Az3VQ,
  .userInfoTitle-39qq0Y {
      font-weight: 400;

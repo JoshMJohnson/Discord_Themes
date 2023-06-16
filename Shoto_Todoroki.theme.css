@@ -3,6 +3,7 @@
  * @author Josh Johnson
  * @description Half-Cold Half-Hot Quirk
  * @version 2
+ * @source https://github.com/JoshMJohnson/Discord_Themes#custom-made-discord-themes
  */
 
  @import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
@@ -617,11 +618,7 @@
      left: -1px;
      top: -1px !important;
  }
- 
- 
- 
-
- 
+  
  #app-mount .isUnread-3Lojb- .content-3spvdd {
      color: #66cff9;
      background: linear-gradient(225deg,
