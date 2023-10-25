@@ -16,7 +16,7 @@
 
     1b.) Download 'Better Discord' from Google
 
-    1c.) Download css file of desired theme linked on GitHub (linked to Google Drive)
+    1c.) Download css file of desired theme
 
     2.) Open normal discord
 
@@ -27,6 +27,8 @@
     5.) Click on 'Open Themes Folder' at top of 'Themes' page
 
     6.) Move download css file from 'Downloads' folder on pc into the folder opened by Discord from 'Open Themes Folder' button
+
+    Note: Additional themes by random people found on Better Discord website
 
 <h2 align='center'>Themes</h2>
 
