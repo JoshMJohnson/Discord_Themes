@@ -2,9 +2,13 @@
 
 <h2 align='center'>How To Install</h2>
 
+<div align='center'>
+
 <img src="./discord_url_screenshot.png" alt="Discord URL" width="500" height="150">
 
 <img src="./better_discord_url_screenshot.png" alt="Better Discord URL" width="500" height="150">
+
+</div>
 
     *** Discord updates may require 'Better Discord' to be reinstalled ***
 
