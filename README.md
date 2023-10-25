@@ -2,6 +2,8 @@
 
 <h2 align='center'>How To Install</h2>
 
+    ** Discord updates may require 'Better Discord' to be reinstalled **
+
     1a.) Download 'Discord' from Google
 
     1b.) Download 'Better Discord' from Google
@@ -16,7 +18,7 @@
 
     5.) Click on 'Open Themes Folder' at top of 'Themes' page
 
-    6.) Move download css file into the folder opened by Discord from 'Open Themes Folder' button
+    6.) Move download css file from 'Downloads' folder on pc into the folder opened by Discord from 'Open Themes Folder' button
 
 <h2 align='center'>Themes</h2>
 
