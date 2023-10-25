@@ -2,15 +2,15 @@
 
 <h2 align='center'>How To Install</h2>
 
+<img src="./discord_url_screenshot.png" alt="Discord URL" width="500" height="150">
+
+<img src="./better_discord_url_screenshot.png" alt="Better Discord URL" width="500" height="150">
+
     *** Discord updates may require 'Better Discord' to be reinstalled ***
 
     1a.) Download 'Discord' from Google
 
-<img src="./discord_url_screenshot.png" alt="Discord URL" width="400" height="250">
-
     1b.) Download 'Better Discord' from Google
-
-<img src="./better_discord_url_screenshot.png" alt="Better Discord URL" width="400" height="250">
 
     1c.) Download css file of desired theme linked on GitHub (linked to Google Drive)
 
