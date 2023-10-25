@@ -1,5 +1,25 @@
 <h1 align='center'>Custom Made Discord Themes</h1>
 
+<h2 align='center'>How To Install</h2>
+
+    1a.) Download 'Discord' from Google
+
+    1b.) Download 'Better Discord' from Google
+
+    1c.) Download css file of desired theme linked on GitHub (linked to Google Drive)
+
+    2.) Open normal discord
+
+    3.) Select 'User Settings' on the bottom left corner of Discord
+
+    4.) Scroll down to 'BETTERDISCORD' section on left tab and click on 'Themes'
+
+    5.) Click on 'Open Themes Folder' at top of 'Themes' page
+
+    6.) Move download css file into the folder opened by Discord from 'Open Themes Folder' button
+
+<h2 align='center'>Themes</h2>
+
 <img src='approving_morty.gif' alt='Morty Dancing in Approval' width='200px' height='350px' align='right'>
 
 [Lord of the Rings: The Ring](#lord-of-the-rings-the-ring)<br>
