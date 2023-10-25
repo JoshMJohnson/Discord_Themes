@@ -2,8 +2,8 @@
 
 <h2 align='center'>How To Install</h2>
 
-    ** Discord updates may require 'Better Discord' to be reinstalled **
-
+    *** Discord updates may require 'Better Discord' to be reinstalled ***
+    
     1a.) Download 'Discord' from Google
 
     1b.) Download 'Better Discord' from Google
