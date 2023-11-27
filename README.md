@@ -1,5 +1,7 @@
 <h1 align='center'>Custom Made Discord Themes</h1>
 
+** Custom discord themes are not working currently while 'Better Discord' is having issues after a major 'Discord' update **
+
 <h2 align='center'>How To Install</h2>
 
 <div align='center'>
