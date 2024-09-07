@@ -18,7 +18,7 @@
 
     1b.) Download 'Better Discord' from Google
 
-    1c.) Download css file of desired theme
+    1c.) Download css file of desired theme from 'Better Discord' website from 'Themes' tab
 
     2.) Open normal discord
 
