@@ -1,15 +1,15 @@
 /**
  * @name The Green Arrow
  * @author Josh Johnson
- * @version 2.0.0
+ * @version 2.0
  * @description The Green Arrow... aka Oliver Queen
 */
 
 /* BlackBox tags */
-@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+/* @import url('https://monstrousdev.github.io/themes/addons/user-tags.css'); */
 
 :root {
-  --version: "The Green Arrow 2.0.0";
+  --version: "The Green Arrow 2.0";
   --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
   --TB-position-top: var(--TB-top, var(--window-padding));
@@ -91,24 +91,25 @@
   */
   /* font */
   --font: 'Whitney';
-  --header-primary: #32CD32;
-  --header-secondary: #228B22;
+  --header-primary: #32CD32; /* header primary font color */
+  --header-secondary: #228B22; /* header secondary font color */
   --text-normal: #32CD32;
   --text-muted: rgb(107, 255, 119);
   --text-default: #ddd;
   --text-link: #00b0f4;
+
   --channels-default: #006400;
-  --interactive-normal: rgb(107, 255, 119);
-  --interactive-hover: #32CD32;
-  --interactive-active: rgb(107, 255, 119);
-  --interactive-muted: #777;
+  --interactive-normal: rgb(107, 255, 119); /* channel not active font color */
+  --interactive-hover: #32CD32; /* channel hover font color */
+  --interactive-active: rgb(107, 255, 119); /* channel active font color */
+  --interactive-muted: rgb(107, 255, 119); /* channel muted font color */
 
   --background-primary: rgb(0, 0, 0, 0.1);
   --background-secondary: rgb(0, 0, 0, 0.3);
   --background-accent: rgb(0, 0, 0, 1);
-  --background-modifier-hover: rgb(0, 0, 0, 1);
+  --background-modifier-hover: rgb(0, 0, 0, 1); /* hover direct message indicator background */
   --background-modifier-active: rgb(0, 0, 0, 1);
-  --background-modifier-selected: rgb(0, 0, 0, 1);
+  --background-modifier-selected: rgb(0, 0, 0, 1); /* active direct message indicator background */
   --background-modifier-accent: rgb(0, 0, 0, 1);
   --background-mentioned: rgb(0, 0, 0, 1);
   --background-mentioned-hover: rgb(0, 0, 0, 1);
@@ -1849,3 +1850,30 @@ html.platform-osx .scroller-2TZvBN {
 .platform-win #app-mount .typeWindows_a934d8::before {
   content: none !important;
 }
+
+/* better discord settings */
+.bd-switch-body { /* settings active/deactive switch */
+  border-radius: 5px;
+  background-color: rgb(0, 100, 0);
+}
+
+.bd-switch-body .bd-switch-slider  rect { /* 'x' marker background color on themes box */
+  fill: rgba(0, 0, 0, 1);
+}
+
+.bd-switch .bd-switch-symbol path { /* 'x' marker on themes box */
+  fill: rgb(107, 255, 119);
+}
+
+/* end of better discord settings */
+*::-webkit-input-placeholder { /* placeholder info */
+  color: rgb(107, 255, 119) !important;
+}
+
+.bd-toast.toast-success, 
+.bd-toast { /* pop up success notification */
+  background-color: rgba(0,0,0,1);
+  border: 1px solid rgba(0, 100, 0, 1);
+  color: rgb(107, 255, 119);
+}
+
