@@ -9,7 +9,7 @@
 [Star Wars: Darth Traya](#star-wars-darth-traya)<br>
 [Star Wars: Darth Vader](#star-wars-darth-vader)<br>
 [NF](#nf)<br>
-[Dark Green](#dark-green)<br><br><br><br><br><br><br><br>
+[Dark Green](#dark-green)<br><br><br>
 
 <h2 align='center'>How To Install</h2>
 
