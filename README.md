@@ -36,7 +36,7 @@
 
 [Lord of the Rings: The Ring](#lord-of-the-rings-the-ring)<br>
 [Lord of the Rings: The Fellowship](#lord-of-the-rings-the-fellowship)<br>
-[Green Arrow](#the-green-arrow)<br>
+[The Green Arrow](#the-green-arrow)<br>
 [Shoto Todoroki](#shoto-todoroki)<br>
 [Star Wars: Darth Traya](#star-wars-darth-traya)<br>
 [Star Wars: Darth Vader](#star-wars-darth-vader)<br>
