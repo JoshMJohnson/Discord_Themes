@@ -2,9 +2,9 @@
 
 <img src='approving_morty.gif' alt='Morty Dancing in Approval' width='200px' height='350px' align='right'>
 
+[The Green Arrow](#the-green-arrow)<br>
 [Lord of the Rings: The Ring](#lord-of-the-rings-the-ring)<br>
 [Lord of the Rings: The Fellowship](#lord-of-the-rings-the-fellowship)<br>
-[The Green Arrow](#the-green-arrow)<br>
 [Shoto Todoroki](#shoto-todoroki)<br>
 [Star Wars: Darth Traya](#star-wars-darth-traya)<br>
 [Star Wars: Darth Vader](#star-wars-darth-vader)<br>
@@ -44,6 +44,13 @@
 <!-- custom theme previews -->
 <h2 align='center'>Theme Previews</h2>
 
+<h3 align='center'>The Green Arrow</h3>
+<p align='center'><a href='https://drive.google.com/file/d/1S19WEZWDF-SjPhIa1_5iB70zUNv2zU3M/view?usp=sharing'>Download The Green Arrow Theme</a></p>
+<p align='center'>
+    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Green_Arrow.png" alt="Green Arrow Theme" width="600" height="400">
+    <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
+</p>
+
 <h3 align='center'>Lord of the Rings: The Ring</h3>
 <!-- <p align='center'><a href='https://drive.google.com/file/d/1-Nq8rhVgST9qbZG4ALIF9loJ8bfO279d/view?usp=share_link'>Download Lord of the Rings: The Ring Theme</a></p> -->
 <p align='center'>
@@ -55,13 +62,6 @@
 <!-- <p align='center'><a href='https://drive.google.com/file/d/1FkLHx6ThK8tlTGuKt2SSBVig4WYE-Vp1/view?usp=sharing'>Download Lord of the Rings: The Fellowship Theme</a></p> -->
 <p align='center'>
     <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/The_Fellowship.png" alt="Lord of the Rings: The Fellowship Theme" width="600" height="400">
-    <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
-</p>
-
-<h3 align='center'>The Green Arrow</h3>
-<p align='center'><a href='https://drive.google.com/file/d/1S19WEZWDF-SjPhIa1_5iB70zUNv2zU3M/view?usp=sharing'>Download The Green Arrow Theme</a></p>
-<p align='center'>
-    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Green_Arrow.png" alt="Green Arrow Theme" width="600" height="400">
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
 
