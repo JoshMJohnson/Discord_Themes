@@ -62,8 +62,8 @@
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
 
-<h3 align='center'>Green Arrow</h3>
-<p align='center'><a href='https://drive.google.com/file/d/1f-OklJAREOH-3064bt9GJTRpy9fvb4rc/view?usp=share_link'>Download The Green Arrow Theme</a></p>
+<h3 align='center'>The Green Arrow</h3>
+<p align='center'><a href='https://drive.google.com/file/d/1S19WEZWDF-SjPhIa1_5iB70zUNv2zU3M/view?usp=sharing'>Download The Green Arrow Theme</a></p>
 <p align='center'>
     <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Green_Arrow.png" alt="Green Arrow Theme" width="600" height="400">
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
