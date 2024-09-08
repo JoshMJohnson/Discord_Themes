@@ -1,6 +1,6 @@
 <h1 align='center'>Custom Made Discord Themes</h1>
 
-<h2 align='center'>Themes</h2>
+<h3 align='center'>Themes</h3>
 
 <img src='approving_morty.gif' alt='Morty Dancing in Approval' width='200px' height='350px' align='right'>
 
@@ -13,7 +13,7 @@
 [NF](#nf)<br>
 [Dark Green](#dark-green)<br><br><br><br><br><br><br><br><br><br>
 
-<h3 align='center'>How To Install</h3>
+<h2 align='center'>How To Install</h2>
 
 <div align='center'>
 
