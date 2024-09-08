@@ -95,7 +95,7 @@
   --header-secondary: #4cd44c; /* header secondary font color */
   --text-normal: #32CD32;
   --text-muted: rgb(107, 255, 119);
-  --text-default: #ddd;
+  --text-default: rgb(107, 255, 119);
   --text-link: #00b0f4;
 
   --channels-default: #1eb91e;
@@ -135,12 +135,12 @@
   --deprecated-card-editable-bg: rgb(0, 0, 0, 0.3);
   --deprecated-store-bg: #36393f;
   --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
-  --deprecated-quickswitcher-input-placeholder: rgb(255, 255, 255, 0.5);
+  --deprecated-quickswitcher-input-placeholder: rgba(255, 117, 117, 0.5);
   --deprecated-text-input-bg: rgb(0, 0, 0, 0.1);
   --deprecated-text-input-border: rgb(0, 0, 0, 0.3);
   --deprecated-text-input-border-hover: #040405;
   --deprecated-text-input-border-disabled: #202225;
-  --deprecated-text-input-prefix: #dcddde;
+  --deprecated-text-input-prefix: #dcfffe;
   --text-link: var(--link-colour);
 
   /* title bar */
@@ -205,7 +205,7 @@ html body #app-mount .scrollerBase_c49869 {
   content: "Your version of Frosted Glass is outdated. Please redownload";
   white-space: pre-wrap;
   display: var(--update-notice-1, block);
-  color: #fff;
+  color: rgb(107, 255, 119);
   text-align: center;
   padding: 10px 0;
   box-sizing: border-box;
@@ -444,7 +444,7 @@ textarea {
 #app-mount .colorRed-1TFJan {
   background: rgb(var(--discord-red), 0.5);
   border: none;
-  color: #fff;
+  color: rgb(107, 255, 119);
   transition: 0.2s ease;
 }
 #app-mount .actionRed-gYn8D3:active, #app-mount .actionRed-gYn8D3:hover,
@@ -480,7 +480,7 @@ textarea {
   background: rgb(var(--discord-blurple), 0.3);
   border: transparent;
   transition: 0.2s ease;
-  color: #fff;
+  color: rgb(107, 255, 119);
 }
 #app-mount .lookOutlined-3sRXeN.colorBrand-3pXr91:active, #app-mount .lookOutlined-3sRXeN.colorBrand-3pXr91:hover {
   background: rgb(var(--discord-blurple));
@@ -610,7 +610,7 @@ textarea {
   top: 0;
   background: var(--foreground);
   border-color: transparent;
-  color: #fff;
+  color: rgb(107, 255, 119);
 }
 #app-mount .notice__5fd4c .button__33db6:hover {
   background: var(--foreground-double);
@@ -952,7 +952,7 @@ textarea {
 }
 #app-mount .member_a31c43.selected_d808b0 .username_d272d6,
 #app-mount .member_a31c43.selected_d808b0 .activity_a31c43 {
-  color: #fff !important;
+  color: rgb(107, 255, 119)fff !important;
 }
 
 .colorDefault-2K3EoJ.focused-3afm-j,
@@ -1086,10 +1086,10 @@ textarea {
   color: var(--text-normal);
 }
 #app-mount .userPopoutOuter_c69a7b .quickMessage-1yeL4E::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(0, 51, 255, 0.3);
 }
 #app-mount .userPopoutOuter_c69a7b .quickMessage-1yeL4E::placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 16, 16, 0.3);
 }
 #app-mount .userPopoutOuter_c69a7b .protip-YaFfgO {
   display: none;
@@ -1109,7 +1109,7 @@ textarea {
   animation: fadeIn 0.3s ease forwards;
 }
 #app-mount .focused-3afm-j .check-1JyqgN {
-  color: #fff;
+  color: rgb(107, 255, 119);
 }
 #app-mount .button-F9qN4n {
   background: var(--foreground);
@@ -1457,10 +1457,10 @@ textarea {
   background: transparent;
 }
 #app-mount .root-1gCeng .colorHeaderPrimary-jN_yGr {
-  color: #fff;
+  color: rgb(107, 255, 119);
 }
 #app-mount .root-1gCeng .colorHeaderSecondary-g5teka {
-  color: #ddd;
+  color: #004600;
 }
 #app-mount .root-1gCeng .container-UC8Ug1,
 #app-mount .root-1gCeng .lookFilled-1Gx00P.colorGrey-2DXtkV {
@@ -1471,26 +1471,26 @@ textarea {
   background: rgba(255, 255, 255, 0.15);
 }
 #app-mount .root-1gCeng .colorStandard-21JIj7 {
-  color: #fff;
+  color: rgb(107, 255, 119);
 }
 #app-mount .root-1gCeng .footer-2gL1pp {
   background: rgba(0, 0, 0, 0.2);
 }
 #app-mount .root-1gCeng .backButton-iA7KIs {
-  color: #ddd;
+  color: #004600;
 }
 #app-mount .root-1gCeng .backButton-iA7KIs:hover {
-  color: #fff;
+  color: rgb(107, 255, 119);
 }
 #app-mount .root-1gCeng .input--jS-j2 {
   background: transparent;
 }
 #app-mount .root-1gCeng .input-2g-os5 {
   background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  color: rgb(107, 255, 119);
 }
 #app-mount .root-1gCeng .sampleLink-2NLvZg {
-  color: #ddd;
+  color: #004600;
 }
 
 #app-mount .quickswitcher_f4e139 {
@@ -1894,4 +1894,9 @@ html.platform-osx .scroller-2TZvBN {
   border: 1px solid rgba(0, 100, 0, 1);
   color: rgb(107, 255, 119);
 }
+
+
+
+
+
 
