@@ -92,13 +92,13 @@
   /* font */
   --font: 'Whitney';
   --header-primary: #32CD32; /* header primary font color */
-  --header-secondary: #228B22; /* header secondary font color */
+  --header-secondary: #4cd44c; /* header secondary font color */
   --text-normal: #32CD32;
   --text-muted: rgb(107, 255, 119);
   --text-default: #ddd;
   --text-link: #00b0f4;
 
-  --channels-default: #006400;
+  --channels-default: #1eb91e;
   --interactive-normal: rgb(107, 255, 119); /* channel not active font color */
   --interactive-hover: #32CD32; /* channel hover font color */
   --interactive-active: rgb(107, 255, 119); /* channel active font color */
@@ -1851,7 +1851,8 @@ html.platform-osx .scroller-2TZvBN {
   content: none !important;
 }
 
-/* better discord settings */
+/** better discord settings */
+
 .bd-switch-body { /* settings active/deactive switch */
   border-radius: 5px;
   background-color: rgb(0, 100, 0);
@@ -1865,7 +1866,24 @@ html.platform-osx .scroller-2TZvBN {
   fill: rgb(107, 255, 119);
 }
 
-/* end of better discord settings */
+.bd-addon-list .bd-addon-header { /* theme node header */
+  color: rgb(107, 255, 119);
+  background: rgba(0, 0, 0, 1);
+}
+
+.bd-addon-list {
+  background: rgba(0, 0, 0, .7);
+}
+
+.bd-button,
+.bd-addon-views .bd-view-button.selected { /* bottom right box that holds edit and delete icons */
+   background: rgba(0, 0, 0, 1) !important;
+   text-shadow: 0 0 8px black, 0 0 8px black, 0 0 8px rgba(0, 0, 0, 1);
+   border: 1px solid rgba(0,100,0,1);
+}
+
+/** end of better discord settings */
+
 *::-webkit-input-placeholder { /* placeholder info */
   color: rgb(107, 255, 119) !important;
 }
