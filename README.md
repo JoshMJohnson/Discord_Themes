@@ -1,5 +1,18 @@
 <h1 align='center'>Custom Made Discord Themes</h1>
 
+<h2 align='center'>Themes</h2>
+
+<img src='approving_morty.gif' alt='Morty Dancing in Approval' width='200px' height='350px' align='right'>
+
+[Lord of the Rings: The Ring](#lord-of-the-rings-the-ring)<br>
+[Lord of the Rings: The Fellowship](#lord-of-the-rings-the-fellowship)<br>
+[The Green Arrow](#the-green-arrow)<br>
+[Shoto Todoroki](#shoto-todoroki)<br>
+[Star Wars: Darth Traya](#star-wars-darth-traya)<br>
+[Star Wars: Darth Vader](#star-wars-darth-vader)<br>
+[NF](#nf)<br>
+[Dark Green](#dark-green)<br><br><br><br><br><br><br><br><br><br>
+
 <h3 align='center'>How To Install</h3>
 
 <div align='center'>
@@ -29,19 +42,6 @@
     6.) Move download css file from 'Downloads' folder on pc into the folder opened by Discord from 'Open Themes Folder' button
 
     Note: Additional themes by random people found on Better Discord website
-
-<h2 align='center'>Themes</h2>
-
-<img src='approving_morty.gif' alt='Morty Dancing in Approval' width='200px' height='350px' align='right'>
-
-[Lord of the Rings: The Ring](#lord-of-the-rings-the-ring)<br>
-[Lord of the Rings: The Fellowship](#lord-of-the-rings-the-fellowship)<br>
-[The Green Arrow](#the-green-arrow)<br>
-[Shoto Todoroki](#shoto-todoroki)<br>
-[Star Wars: Darth Traya](#star-wars-darth-traya)<br>
-[Star Wars: Darth Vader](#star-wars-darth-vader)<br>
-[NF](#nf)<br>
-[Dark Green](#dark-green)<br><br><br><br><br><br><br><br><br><br>
 
 <!-- custom theme previews -->
 <h2 align='center'>Theme Previews</h2>
