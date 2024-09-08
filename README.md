@@ -1,6 +1,6 @@
 <h1 align='center'>Custom Made Discord Themes</h1>
 
-<h2 align='center'>How To Install</h2>
+<h3 align='center'>How To Install</h3>
 
 <div align='center'>
 
