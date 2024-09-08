@@ -1,7 +1,5 @@
 <h1 align='center'>Custom Made Discord Themes</h1>
 
-<h3 align='center'>Themes</h3>
-
 <img src='approving_morty.gif' alt='Morty Dancing in Approval' width='200px' height='350px' align='right'>
 
 [Lord of the Rings: The Ring](#lord-of-the-rings-the-ring)<br>
