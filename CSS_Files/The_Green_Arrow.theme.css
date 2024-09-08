@@ -1,7 +1,7 @@
 /**
  * @name The Green Arrow
  * @author Josh Johnson
- * @version 1.0.0
+ * @version 2.0.0
  * @description The Green Arrow... aka Oliver Queen
 */
 
@@ -64,10 +64,10 @@
   --home-button-position: center; /* Position of home button image | DEAFULT: center */
 
   /* Brightness variables */
-  --serverlist-brightness: 0.8; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --serverlist-brightness: 0; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
   --left-brightness: 0.8; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
-  --middle-brightness: 0.6; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
-  --right-brightness: 0; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+  --middle-brightness: 0.4; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
+  --right-brightness: 0.8; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
   --popout-modal-brightness: 0.75; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
 
   /* Gradient variables */
@@ -76,13 +76,13 @@
   --gradient-direction: 320deg; /* DEFAULT: 320deg */
 
   /* Tint variables */
-  --tint-colour: 255,51,159; /* Colour of tint | DEAFULT: 255,51,159 */
-  --tint-brightness: 0; /* Brightness of --tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+  --tint-colour: 0,100,0; /* Colour of tint | DEAFULT: 255,51,159 */
+  --tint-brightness: 0.1; /* Brightness of --tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
 
   /* Other variables */
   --window-padding: 20px; /* Spacing around the Discord window | DEFAULT: 20px */
-  --window-roundness: 10px; /* Roundness of Discord | DEFAULT: 10px */
-  --scrollbar-colour: rgba(255,255,255,0.05); /* DEFAULT: rgba(255,255,255,0.05) */
+  --window-roundness: 20px; /* Roundness of Discord | DEFAULT: 10px */
+  --scrollbar-colour: rgba(0,100,0); /* DEFAULT: rgba(255,255,255,0.05) */
   --link-colour: #00b0f4; /* DEFAULT: #00b0f4 */
   
   /*
