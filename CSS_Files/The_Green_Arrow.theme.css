@@ -1905,3 +1905,36 @@ html.platform-osx .scroller-2TZvBN {
 .syntaxBefore_cdb578 {
     color: rgb(0, 100, 0);
 }
+
+/* icon colors (ex: hashtags) */
+#app-mount .actionIcon_f6f816,
+#app-mount .addButtonIcon_a08117,
+#app-mount .arrow_d64d50,
+#app-mount .attachButtonPlus_f298d4,
+#app-mount .button_adca65 svg,
+#app-mount .button_a79c58,
+#app-mount .buttonWrapper_f9af59 svg,
+#app-mount .channelNameIcon_a9e225,
+#app-mount .colorDefault-CDqZdO .checkbox-hADx5o,
+#app-mount .colorDefault-CDqZdO .radioSelection-1UHp0b,
+#app-mount .colorDefault-CDqZdO .subtext-2GlkbE,
+#app-mount .colorLink-2apWfY,
+#app-mount .connectedAccountOpenIcon-1yfBsb,
+#app-mount .container-7Unqij svg,
+#app-mount .flowerStar_c91f7d path,
+#app-mount .icon_e01b91,
+#app-mount .icon_a3b500,
+#app-mount .icon_d8bfb3,
+#app-mount .icon_fc4f04,
+#app-mount .icon_fb52f0,
+#app-mount .icon_ca33de,
+#app-mount .icon-E4cW1l,
+#app-mount .iconContainer-1-SsTR,
+#app-mount .linkButtonIcon_c91bad,
+#app-mount .option-2KkUJO.selected-rZcOL- .plusIcon-2V7coV,
+#app-mount .overlayToggleIconOn-3_-nGm .fill-MYciTJ,
+#app-mount .resultsGroup-1BPR25 .searchLearnMore-7__o_n a,
+#app-mount .topSectionNormal-2-vo2m .additionalActionsIcon-3Cy8UU {
+    color: rgb(107, 255, 119) !important;
+    fill: rgb(107, 255, 119) !important;
+}
