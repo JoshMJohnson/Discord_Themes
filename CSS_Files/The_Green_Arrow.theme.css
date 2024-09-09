@@ -1946,3 +1946,8 @@ html.platform-osx .scroller-2TZvBN {
   border: 2px outset rgb(107, 255, 119);
 }
 
+/* user being tagged */
+.theme-dark .wrapper_bf1b19 {
+  background: #000 !important;
+  color: rgb(107, 255, 119) !important;
+}
