@@ -15,10 +15,10 @@
   --TB-position-top: var(--TB-top, var(--window-padding));
   --TB-position-right: var(--window-padding);
   --tint: rgb(var(--tint-colour), var(--tint-brightness));
-  --foreground-half: rgb(255, 255, 255, 0.025);
-  --foreground: rgb(255, 255, 255, 0.05);
-  --foreground-double: rgb(255, 255, 255, 0.1);
-  --foreground-triple: rgb(255, 255, 255, 0.15);
+  --foreground-half: rgb(0, 100, 0, 1);
+  --foreground: rgb(0, 100, 0, 1);
+  --foreground-double: rgb(0, 100, 0, 1);
+  --foreground-triple: rgb(0, 100, 0, 1);
   --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
   --gradient-20: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.2), rgb(var(--gradient-secondary), 0.2));
   --gradient-50: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.5), rgb(var(--gradient-secondary), 0.5));
@@ -1895,8 +1895,13 @@ html.platform-osx .scroller-2TZvBN {
   color: rgb(107, 255, 119);
 }
 
-
-
-
-
-
+/* placeholder for add new message at the bottom of channel being selected within a server */
+.placeholder_a552a6,
+.slateTextArea_e52116 .hljs-comment,
+.slateTextArea_e52116 .hljs-quote,
+.textArea_d0696b,
+.codeBlockSyntax_cdb578,
+.syntaxAfter_cdb578,
+.syntaxBefore_cdb578 {
+    color: rgb(0, 100, 0);
+}
