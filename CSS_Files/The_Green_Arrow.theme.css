@@ -83,7 +83,7 @@
   --window-padding: 20px; /* Spacing around the Discord window | DEFAULT: 20px */
   --window-roundness: 20px; /* Roundness of Discord | DEFAULT: 10px */
   --scrollbar-colour: rgba(0,100,0); /* DEFAULT: rgba(255,255,255,0.05) */
-  --link-colour: #00b0f4; /* DEFAULT: #00b0f4 */
+  --link-colour: #90EE90; /* DEFAULT: #00b0f4 */
   
   /*
     Visit https://fonts.google.com and select one to your liking.
@@ -96,7 +96,7 @@
   --text-normal: #32CD32;
   --text-muted: rgb(107, 255, 119);
   --text-default: rgb(107, 255, 119);
-  --text-link: #00b0f4;
+  --text-link: #90EE90;
 
   --channels-default: #1eb91e;
   --interactive-normal: rgb(107, 255, 119); /* channel not active font color */
@@ -1938,3 +1938,11 @@ html.platform-osx .scroller-2TZvBN {
     color: rgb(107, 255, 119) !important;
     fill: rgb(107, 255, 119) !important;
 }
+
+/* channel notification display */
+.numberBadge_df8943[style*="background-color"] {
+  color: rgb(107, 255, 119);
+  background-color: rgb(0, 0, 0) !important;
+  border: 2px outset rgb(107, 255, 119);
+}
+
