@@ -1969,17 +1969,17 @@ html.platform-osx .scroller-2TZvBN {
   border-right-color: #004600;
 }
 
-
-
-
+/* background of server without an image; not active */
 .childWrapper_f90abb {
-  background-color: #912;
-  color: white;
+  background-color: #000;
+  color: var(--interactive-hover);
   border-radius: 5px;
 }
 
+/* background of server without an image; active */
 .wrapper_f90abb.selected_f90abb .childWrapper_f90abb,
 .wrapper_f90abb:hover .childWrapper_f90abb {
-    background-color: #000;
+    background-color: #004600;
+    color: var(--interactive-active);
 }
 
