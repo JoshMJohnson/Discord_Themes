@@ -1972,7 +1972,7 @@ html.platform-osx .scroller-2TZvBN {
 /* background of server without an image; not active */
 .childWrapper_f90abb {
   background-color: #000;
-  color: var(--interactive-hover);
+  color: var(--channels-default);
   border-radius: 5px;
 }
 
