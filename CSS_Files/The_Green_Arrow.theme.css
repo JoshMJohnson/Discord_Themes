@@ -130,17 +130,17 @@
   --activity-card-background: #000;
 
   --guild-header-text-shadow: 0 1px 1px rgb(0, 0, 0, 0.4);
-  --textbox-markdown-syntax: #8e9297;
+  --textbox-markdown-syntax: #004600;
   --deprecated-card-bg: rgb(0, 0, 0, 0.3);
   --deprecated-card-editable-bg: rgb(0, 0, 0, 0.3);
-  --deprecated-store-bg: #36393f;
+  --deprecated-store-bg: #004600;
   --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
   --deprecated-quickswitcher-input-placeholder: rgba(255, 117, 117, 0.5);
   --deprecated-text-input-bg: rgb(0, 0, 0, 0.1);
   --deprecated-text-input-border: rgb(0, 0, 0, 0.3);
   --deprecated-text-input-border-hover: #040405;
   --deprecated-text-input-border-disabled: #202225;
-  --deprecated-text-input-prefix: #dcfffe;
+  --deprecated-text-input-prefix: #048204;
   --text-link: var(--link-colour);
 
   /* title bar */
@@ -492,17 +492,17 @@ textarea {
   color: var(--text-normal);
 }
 #app-mount .bd-search-wrapper::-moz-placeholder, #app-mount .input-2g-os5:not(.searchBoxInput-3h4etz)::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 100, 0, 1);
 }
 #app-mount .bd-search-wrapper::placeholder,
 #app-mount .input-2g-os5:not(.searchBoxInput-3h4etz)::placeholder {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 100, 0, 1);
 }
 #app-mount .bd-search::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 100, 0, 1);
 }
 #app-mount .bd-search::placeholder {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 100, 0, 1);
 }
 #app-mount .item_eb92a8 {
   border: none;
@@ -560,7 +560,7 @@ textarea {
   border-color: transparent;
 }
 #app-mount [class*=css][class*=placeholder] {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 100, 0, 1);
   opacity: 1;
 }
 #app-mount .popout_f6639d {
@@ -1464,11 +1464,11 @@ textarea {
 }
 #app-mount .root-1gCeng .container-UC8Ug1,
 #app-mount .root-1gCeng .lookFilled-1Gx00P.colorGrey-2DXtkV {
-  background: rgba(255, 255, 255, 0.1);
+  background: #004600;
 }
 #app-mount .root-1gCeng .container-UC8Ug1:hover,
 #app-mount .root-1gCeng .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: #004600;
 }
 #app-mount .root-1gCeng .colorStandard-21JIj7 {
   color: rgb(107, 255, 119);
@@ -1486,7 +1486,7 @@ textarea {
   background: transparent;
 }
 #app-mount .root-1gCeng .input-2g-os5 {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 1);
   color: rgb(107, 255, 119);
 }
 #app-mount .root-1gCeng .sampleLink-2NLvZg {
@@ -1832,7 +1832,7 @@ html.platform-osx .scroller-2TZvBN {
   width: var(--TB-width, 40px);
 }
 .platform-win .winButton_a934d8:not(.winButtonClose_a934d8):hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 1);
 }
 .platform-win .container_fc4f04 {
   padding-right: var(--TB-header-padding);
