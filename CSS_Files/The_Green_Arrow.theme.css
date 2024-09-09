@@ -1947,7 +1947,39 @@ html.platform-osx .scroller-2TZvBN {
 }
 
 /* user being tagged */
-.theme-dark .wrapper_bf1b19 {
+.wrapper_bf1b19 {
   background: #000 !important;
   color: rgb(107, 255, 119) !important;
 }
+
+/* members currently in a limited channel */
+.users_a5bc92 {
+  background-color: #022402;
+  color: rgb(107, 255, 119);
+}
+
+/* members allowed in a limited channel */
+.total_a5bc92 {
+  background-color: #004600;
+  color: rgb(107, 255, 119);
+}
+
+/* separator between members currently in, and allowed in, a limited channel */
+.total_a5bc92:after {
+  border-right-color: #004600;
+}
+
+
+
+
+.childWrapper_f90abb {
+  background-color: #912;
+  color: white;
+  border-radius: 5px;
+}
+
+.wrapper_f90abb.selected_f90abb .childWrapper_f90abb,
+.wrapper_f90abb:hover .childWrapper_f90abb {
+    background-color: #000;
+}
+
