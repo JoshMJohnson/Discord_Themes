@@ -1983,3 +1983,7 @@ html.platform-osx .scroller-2TZvBN {
     color: var(--interactive-active);
 }
 
+/* link text */
+#app-mount .markup_f8f345 a:first-child {
+    color: #90EE90 !important
+}
