@@ -62,9 +62,9 @@
 
   /* Brightness variables */
   --serverlist-brightness: 0.4; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
-  --left-brightness: 0.8; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --left-brightness: 0.6; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
   --middle-brightness: 0.4; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
-  --right-brightness: 0.8; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+  --right-brightness: 0.6; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
   --popout-modal-brightness: 0.75; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
 
   /* Gradient variables */
@@ -1853,7 +1853,7 @@ html.platform-osx .scroller-2TZvBN {
 
 .bd-switch-body { /* settings active/deactive switch */
   border-radius: 5px;
-  background-color: rgb(0, 100, 0);
+  background-color: var(--text-normal);
 }
 
 .bd-switch-body .bd-switch-slider  rect { /* 'x' marker background color on themes box */
@@ -1877,7 +1877,7 @@ html.platform-osx .scroller-2TZvBN {
 .bd-addon-views .bd-view-button.selected { /* bottom right box that holds edit and delete icons */
    background: rgba(0, 0, 0, 1) !important;
    text-shadow: 0 0 8px black, 0 0 8px black, 0 0 8px rgba(0, 0, 0, 1);
-   border: 1px solid rgba(0,100,0,1);
+   border: 1px solid var(--scrollbar-colour);
 }
 
 /** end of better discord settings */
@@ -1889,7 +1889,7 @@ html.platform-osx .scroller-2TZvBN {
 .bd-toast.toast-success, 
 .bd-toast { /* pop up success notification */
   background-color: rgba(0,0,0,1);
-  border: 1px solid rgba(0, 100, 0, 1);
+  border: 1px solid var(--scrollbar-colour);
   color: rgb(107, 255, 119);
 }
 
@@ -1901,7 +1901,7 @@ html.platform-osx .scroller-2TZvBN {
 .codeBlockSyntax_cdb578,
 .syntaxAfter_cdb578,
 .syntaxBefore_cdb578 {
-    color: rgb(0, 100, 0);
+    color: var(--scrollbar-colour);
 }
 
 /* icon colors (ex: hashtags) */
@@ -1933,33 +1933,33 @@ html.platform-osx .scroller-2TZvBN {
 #app-mount .overlayToggleIconOn-3_-nGm .fill-MYciTJ,
 #app-mount .resultsGroup-1BPR25 .searchLearnMore-7__o_n a,
 #app-mount .topSectionNormal-2-vo2m .additionalActionsIcon-3Cy8UU {
-    color: rgb(107, 255, 119) !important;
-    fill: rgb(107, 255, 119) !important;
+    color: var(--text-normal) !important;
+    fill: var(--text-normal) !important;
 }
 
 /* channel notification display */
 .numberBadge_df8943[style*="background-color"] {
-  color: rgb(107, 255, 119);
+  color: var(--text-normal);
   background-color: rgb(0, 0, 0) !important;
-  border: 2px outset rgb(107, 255, 119);
+  border: 2px outset var(--text-normal);
 }
 
 /* user being tagged */
 .wrapper_bf1b19 {
   background: #000 !important;
-  color: rgb(107, 255, 119) !important;
+  color: var(--text-normal) !important;
 }
 
 /* members currently in a limited channel */
 .users_a5bc92 {
   background-color: #022402;
-  color: rgb(107, 255, 119);
+  color: var(--text-normal);
 }
 
 /* members allowed in a limited channel */
 .total_a5bc92 {
   background-color: #004600;
-  color: rgb(107, 255, 119);
+  color: var(--text-normal);
 }
 
 /* separator between members currently in, and allowed in, a limited channel */
