@@ -92,7 +92,7 @@
   --header-primary: #32CD32; /* header primary font color */
   --header-secondary: rgb(107, 255, 119); /* header secondary font color */
   --text-normal: rgb(107, 255, 119);
-  --text-muted: rgb(107, 255, 119);
+  --text-muted: rgb(107, 255, 119); /* search bar placeholder and date, time of message text */
   --text-default: rgb(107, 255, 119);
   /* --text-link: #90EE90; */
 
