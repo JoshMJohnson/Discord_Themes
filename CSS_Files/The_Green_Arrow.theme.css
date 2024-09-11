@@ -61,7 +61,7 @@
   --home-button-position: center; /* Position of home button image | DEAFULT: center */
 
   /* Brightness variables */
-  --serverlist-brightness: 0; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --serverlist-brightness: 0.4; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
   --left-brightness: 0.8; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
   --middle-brightness: 0.4; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
   --right-brightness: 0.8; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
@@ -80,7 +80,8 @@
   --window-padding: 20px; /* Spacing around the Discord window | DEFAULT: 20px */
   --window-roundness: 20px; /* Roundness of Discord | DEFAULT: 10px */
   --scrollbar-colour: rgba(0,100,0); /* DEFAULT: rgba(255,255,255,0.05) */
-  --link-colour: #90EE90; /* DEFAULT: #00b0f4 */
+  /* --link-colour: #90EE90;  */
+  /* DEFAULT: #00b0f4 */
   
   /*
     Visit https://fonts.google.com and select one to your liking.
@@ -89,11 +90,11 @@
   /* font */
   --font: 'Whitney';
   --header-primary: #32CD32; /* header primary font color */
-  --header-secondary: #4cd44c; /* header secondary font color */
-  --text-normal: #32CD32;
+  --header-secondary: rgb(107, 255, 119); /* header secondary font color */
+  --text-normal: rgb(107, 255, 119);
   --text-muted: rgb(107, 255, 119);
   --text-default: rgb(107, 255, 119);
-  --text-link: #90EE90;
+  /* --text-link: #90EE90; */
 
   --channels-default: #1eb91e;
   --interactive-normal: rgb(107, 255, 119); /* channel not active font color */
@@ -102,12 +103,12 @@
   --interactive-muted: rgb(107, 255, 119); /* channel muted font color */
 
   --background-primary: rgb(0, 0, 0, 0.1);
-  --background-secondary: rgb(0, 0, 0, 0.3);
+  --background-secondary: rgb(0, 0, 0, 0.8); /* background of search bar and video links */
   --background-accent: rgb(0, 0, 0, 1);
   --background-modifier-hover: rgb(0, 0, 0, 1); /* hover direct message indicator background */
   --background-modifier-active: rgb(0, 0, 0, 1);
   --background-modifier-selected: rgb(0, 0, 0, 1); /* active direct message indicator background */
-  --background-modifier-accent: rgb(0, 0, 0, 1);
+  --background-modifier-accent: rgb(0, 0, 0, 1); /* line color for date within channel */
   --background-mentioned: rgb(0, 0, 0, 1);
   --background-mentioned-hover: rgb(0, 0, 0, 1);
   --background-message-hover: rgb(0, 0, 0, 1);
@@ -118,12 +119,12 @@
   --background-mobile-secondary: #2f3136;
 
   --elevation-stroke: 0 0 0 2px #228B22;
-  --elevation-medium: 0 4px 4px #000;
+  --elevation-medium: 0 4px 4px #000; /* notification popup shadow */
   --elevation-high: 0 8px 16px #000;
   --elevation-low: 0 1px 0 rgb(4, 4, 5, 0.2), 0 1.5px 0 rgb(6, 6, 7, 0.05), 0 2px 0 rgb(4, 4, 5, 0.05);
 
   --logo-primary: rgb(107, 255, 119);
-  --channeltextarea-background: rgb(0, 0, 0);
+  --channeltextarea-background: rgba(0, 0, 0, 0.8); /* server create a new message at the bottom background color */
   --activity-card-background: #000;
 
   --guild-header-text-shadow: 0 1px 1px rgb(0, 0, 0, 0.4);
@@ -138,7 +139,7 @@
   --deprecated-text-input-border-hover: #040405;
   --deprecated-text-input-border-disabled: #202225;
   --deprecated-text-input-prefix: #048204;
-  --text-link: var(--link-colour);
+  /* --text-link: var(--link-colour); */
 
   /* title bar */
   --TB-header-padding: 125px;
@@ -1860,16 +1861,16 @@ html.platform-osx .scroller-2TZvBN {
 }
 
 .bd-switch .bd-switch-symbol path { /* 'x' marker on themes box */
-  fill: rgb(107, 255, 119);
+  fill: var(--text-normal);
 }
 
 .bd-addon-list .bd-addon-header { /* theme node header */
-  color: rgb(107, 255, 119);
-  background: rgba(0, 0, 0, 1);
+  color: var(--header-primary);
+  background: rgb(1, 40, 3);
 }
 
-.bd-addon-list {
-  background: rgba(0, 0, 0, .7);
+.bd-addon-list { /* background of combined theme nodes */
+  background: transparent;
 }
 
 .bd-button,
@@ -1882,7 +1883,7 @@ html.platform-osx .scroller-2TZvBN {
 /** end of better discord settings */
 
 *::-webkit-input-placeholder { /* placeholder info */
-  color: rgb(107, 255, 119) !important;
+  color: var(--text-normal) !important;
 }
 
 .bd-toast.toast-success, 
@@ -1982,5 +1983,5 @@ html.platform-osx .scroller-2TZvBN {
 
 /* link text */
 #app-mount .markup_f8f345 a:first-child {
-    color: #90EE90 !important
+    color: #a7e3a7 !important
 }
