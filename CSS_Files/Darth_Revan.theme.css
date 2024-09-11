@@ -5,9 +5,6 @@
  * @description Jedi Knight who broke away from the Jedi Order, became a Dark Lord of the Sith, and formed a Sith Empire that waged war against the Order and the Galactic Republic. INCOMPLETE
 */
 
-/* BlackBox tags */
-/* @import url('https://monstrousdev.github.io/themes/addons/user-tags.css'); */
-
 :root {
   --version: "Darth Revan 2.0";
   --TB-top: calc(var(--server-container) + var(--window-padding));
@@ -91,14 +88,14 @@
   */
   /* font */
   --font: 'Whitney';
-  --header-primary: #32CD32; /* header primary font color */
-  --header-secondary: #4cd44c; /* header secondary font color */
-  --text-normal: #32CD32;
-  --text-muted: rgb(107, 255, 119);
-  --text-default: rgb(107, 255, 119);
+  --header-primary: rgb(195, 112, 254); /* header primary font color */
+  --header-secondary: rgb(223, 179, 255); /* header secondary font color */
+  --text-normal: rgb(223, 179, 255);
+  --text-muted: rgb(223, 179, 255);
+  --text-default: rgb(223, 179, 255);
   --text-link: #90EE90;
 
-  --channels-default: #1eb91e;
+  --channels-default: rgb(195, 112, 254);
   --interactive-normal: rgb(107, 255, 119); /* channel not active font color */
   --interactive-hover: #32CD32; /* channel hover font color */
   --interactive-active: rgb(107, 255, 119); /* channel active font color */
@@ -1985,5 +1982,5 @@ html.platform-osx .scroller-2TZvBN {
 
 /* link text */
 #app-mount .markup_f8f345 a:first-child {
-    color: #90EE90 !important
+    color: rgb(255, 62, 62) !important
 }
