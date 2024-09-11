@@ -97,7 +97,7 @@
   /* --text-link: #90EE90; */
 
   --channels-default: rgb(195, 112, 254);
-  --interactive-normal: rgb(195, 112, 254); /* channel not active font color */
+  --interactive-normal: rgb(222, 175, 255); /* channel not active font color */
   --interactive-hover: rgb(222, 175, 255); /* channel hover font color */
   --interactive-active: rgb(222, 175, 255); /* channel active font color */
   --interactive-muted: rgb(195, 112, 254); /* channel muted font color */
