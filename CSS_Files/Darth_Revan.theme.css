@@ -102,13 +102,13 @@
   --interactive-active: rgb(222, 175, 255); /* channel active font color */
   --interactive-muted: rgb(195, 112, 254); /* channel muted font color */
 
-  --background-primary: rgb(0, 0, 0, 0.1);
-  --background-secondary: rgb(0, 0, 0, 0.3);
+  --background-primary: transparent;
+  --background-secondary: rgb(0, 0, 0, .3); /* background of search bar and video links */
   --background-accent: rgb(0, 0, 0, 1);
-  --background-modifier-hover: rgb(0, 0, 0, 1); /* hover direct message indicator background */
+  --background-modifier-hover: rgb(39, 0, 0); /* hover direct message indicator background */
   --background-modifier-active: rgb(0, 0, 0, 1);
   --background-modifier-selected: rgb(0, 0, 0, 1); /* active direct message indicator background */
-  --background-modifier-accent: rgb(0, 0, 0, 1);
+  --background-modifier-accent: rgb(0, 0, 0, 1); /* line color for date within channel */
   --background-mentioned: rgb(0, 0, 0, 1);
   --background-mentioned-hover: rgb(0, 0, 0, 1);
   --background-message-hover: rgb(0, 0, 0, 1);
@@ -119,12 +119,12 @@
   --background-mobile-secondary: #2f3136;
 
   --elevation-stroke: 0 0 0 2px #228B22;
-  --elevation-medium: 0 4px 4px #000;
+  --elevation-medium: 0 4px 4px #000; /* notification popup shadow */
   --elevation-high: 0 8px 16px #000;
   --elevation-low: 0 1px 0 rgb(4, 4, 5, 0.2), 0 1.5px 0 rgb(6, 6, 7, 0.05), 0 2px 0 rgb(4, 4, 5, 0.05);
 
   --logo-primary: rgb(107, 255, 119);
-  --channeltextarea-background: rgb(0, 0, 0);
+  --channeltextarea-background: rgb(0, 0, 0); /* server create a new message at the bottom background color */
   --activity-card-background: #000;
 
   --guild-header-text-shadow: 0 1px 1px rgb(0, 0, 0, 0.4);
@@ -1865,12 +1865,12 @@ html.platform-osx .scroller-2TZvBN {
 }
 
 .bd-addon-list .bd-addon-header { /* theme node header */
-  color: rgb(107, 255, 119);
+  color: var(--header-primary);
   background: rgba(0, 0, 0, 1);
 }
 
-.bd-addon-list {
-  background: rgba(0, 0, 0, .7);
+.bd-addon-list { /* background of combined theme nodes */
+  background: transparent;
 }
 
 .bd-button,
