@@ -98,7 +98,7 @@
 
   --channels-default: #1eb91e;
   --interactive-normal: rgb(107, 255, 119); /* channel not active font color */
-  --interactive-hover: #32CD32; /* channel hover font color */
+  --interactive-hover: rgb(107, 255, 119); /* channel hover font color */
   --interactive-active: rgb(107, 255, 119); /* channel active font color */
   --interactive-muted: rgb(107, 255, 119); /* channel muted font color */
 
