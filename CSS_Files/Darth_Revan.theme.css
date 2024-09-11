@@ -68,8 +68,8 @@
   --popout-modal-brightness: 0.4; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
 
   /* Gradient variables */
-  --gradient-primary: 0,0,0; /* DEFAULT: 103,58,183 */
-  --gradient-secondary: 0,100,0; /* DEFAULT: 63,81,181 */
+  --gradient-primary: 60,0,0; /* DEFAULT: 103,58,183 */
+  --gradient-secondary: 100,0,0; /* DEFAULT: 63,81,181 */
   --gradient-direction: 320deg; /* DEFAULT: 320deg */
 
   /* Tint variables */
@@ -80,7 +80,8 @@
   --window-padding: 20px; /* Spacing around the Discord window | DEFAULT: 20px */
   --window-roundness: 20px; /* Roundness of Discord | DEFAULT: 10px */
   --scrollbar-colour: rgba(0,100,0); /* DEFAULT: rgba(255,255,255,0.05) */
-  --link-colour: #90EE90; /* DEFAULT: #00b0f4 */
+  /* --link-colour: #90EE90;  */
+  /* DEFAULT: #00b0f4 */
   
   /*
     Visit https://fonts.google.com and select one to your liking.
@@ -93,13 +94,13 @@
   --text-normal: rgb(223, 179, 255);
   --text-muted: rgb(223, 179, 255);
   --text-default: rgb(223, 179, 255);
-  --text-link: #90EE90;
+  /* --text-link: #90EE90; */
 
   --channels-default: rgb(195, 112, 254);
-  --interactive-normal: rgb(107, 255, 119); /* channel not active font color */
-  --interactive-hover: #32CD32; /* channel hover font color */
-  --interactive-active: rgb(107, 255, 119); /* channel active font color */
-  --interactive-muted: rgb(107, 255, 119); /* channel muted font color */
+  --interactive-normal: rgb(195, 112, 254); /* channel not active font color */
+  --interactive-hover: rgb(222, 175, 255); /* channel hover font color */
+  --interactive-active: rgb(222, 175, 255); /* channel active font color */
+  --interactive-muted: rgb(195, 112, 254); /* channel muted font color */
 
   --background-primary: rgb(0, 0, 0, 0.1);
   --background-secondary: rgb(0, 0, 0, 0.3);
@@ -138,7 +139,7 @@
   --deprecated-text-input-border-hover: #040405;
   --deprecated-text-input-border-disabled: #202225;
   --deprecated-text-input-prefix: #048204;
-  --text-link: var(--link-colour);
+  /* --text-link: var(--link-colour); */
 
   /* title bar */
   --TB-header-padding: 125px;
@@ -1932,8 +1933,8 @@ html.platform-osx .scroller-2TZvBN {
 #app-mount .overlayToggleIconOn-3_-nGm .fill-MYciTJ,
 #app-mount .resultsGroup-1BPR25 .searchLearnMore-7__o_n a,
 #app-mount .topSectionNormal-2-vo2m .additionalActionsIcon-3Cy8UU {
-    color: rgb(107, 255, 119) !important;
-    fill: rgb(107, 255, 119) !important;
+    color: rgb(195, 112, 254) !important;
+    fill: rgb(195, 112, 254) !important;
 }
 
 /* channel notification display */
