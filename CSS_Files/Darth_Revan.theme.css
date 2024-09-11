@@ -74,7 +74,7 @@
 
   /* Tint variables */
   --tint-colour: 75,0,130; /* Colour of tint | DEAFULT: 255,51,159 */
-  --tint-brightness: 0.1; /* Brightness of --tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+  --tint-brightness: 0.2; /* Brightness of --tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
 
   /* Other variables */
   --window-padding: 20px; /* Spacing around the Discord window | DEFAULT: 20px */
