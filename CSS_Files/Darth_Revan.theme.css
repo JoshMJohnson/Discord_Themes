@@ -79,7 +79,7 @@
   /* Other variables */
   --window-padding: 20px; /* Spacing around the Discord window | DEFAULT: 20px */
   --window-roundness: 20px; /* Roundness of Discord | DEFAULT: 10px */
-  --scrollbar-colour: rgba(0,100,0); /* DEFAULT: rgba(255,255,255,0.05) */
+  --scrollbar-colour: rgb(189, 48, 48); /* DEFAULT: rgba(255,255,255,0.05) */
   /* --link-colour: #90EE90;  */
   /* DEFAULT: #00b0f4 */
   
@@ -92,7 +92,7 @@
   --header-primary: rgb(195, 112, 254); /* header primary font color */
   --header-secondary: rgb(223, 179, 255); /* header secondary font color */
   --text-normal: rgb(223, 179, 255);
-  --text-muted: rgb(223, 179, 255);
+  --text-muted: rgb(237, 48, 48); /* search bar placeholder and date, time of message, settings labels text */
   --text-default: rgb(223, 179, 255);
   /* --text-link: #90EE90; */
 
@@ -1901,7 +1901,7 @@ html.platform-osx .scroller-2TZvBN {
 .codeBlockSyntax_cdb578,
 .syntaxAfter_cdb578,
 .syntaxBefore_cdb578 {
-    color: var(--scrollbar-colour);
+    color: var(--text-muted);
 }
 
 /* icon colors (ex: hashtags) */
@@ -1952,19 +1952,19 @@ html.platform-osx .scroller-2TZvBN {
 
 /* members currently in a limited channel */
 .users_a5bc92 {
-  background-color: #022402;
+  background-color: #310053;
   color: var(--text-normal);
 }
 
 /* members allowed in a limited channel */
 .total_a5bc92 {
-  background-color: #004600;
+  background-color: #6800b3;
   color: var(--text-normal);
 }
 
 /* separator between members currently in, and allowed in, a limited channel */
 .total_a5bc92:after {
-  border-right-color: #004600;
+  border-right-color: #6800b3;
 }
 
 /* background of server without an image; not active */
