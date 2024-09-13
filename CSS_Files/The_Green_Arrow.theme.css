@@ -80,8 +80,7 @@
   --window-padding: 20px; /* Spacing around the Discord window | DEFAULT: 20px */
   --window-roundness: 20px; /* Roundness of Discord | DEFAULT: 10px */
   --scrollbar-colour: rgb(127, 190, 133); /* DEFAULT: rgba(255,255,255,0.05) */
-  /* --link-colour: #90EE90;  */
-  /* DEFAULT: #00b0f4 */
+  --link-colour: #a7e3a7; /* DEFAULT: #00b0f4 */
   
   /*
     Visit https://fonts.google.com and select one to your liking.
@@ -94,7 +93,7 @@
   --text-normal: rgb(107, 255, 119);
   --text-muted: rgb(127, 190, 133); /* search bar placeholder and date, time of message text */
   --text-default: rgb(107, 255, 119);
-  /* --text-link: #90EE90; */
+  --text-link: var(--link-colour);
 
   --channels-default: #1eb91e;
   --interactive-normal: rgb(107, 255, 119); /* channel not active font color */
@@ -118,12 +117,12 @@
   --background-mobile-primary: #36393f;
   --background-mobile-secondary: #2f3136;
 
-  --elevation-stroke: 0 0 0 2px #228B22;
+  --elevation-stroke: 0 0 0 2px #228B22; /* notification popup elevation color */
   --elevation-medium: 0 4px 4px #000; /* notification popup shadow */
   --elevation-high: 0 8px 16px #000;
   --elevation-low: 0 1px 0 rgb(4, 4, 5, 0.2), 0 1.5px 0 rgb(6, 6, 7, 0.05), 0 2px 0 rgb(4, 4, 5, 0.05);
 
-  --logo-primary: rgb(107, 255, 119);
+  --logo-primary: var(--text-muted);
   --channeltextarea-background: rgba(0, 0, 0, 0.8); /* server create a new message at the bottom background color */
   --activity-card-background: #000;
 
@@ -139,7 +138,7 @@
   --deprecated-text-input-border-hover: #040405;
   --deprecated-text-input-border-disabled: #202225;
   --deprecated-text-input-prefix: #048204;
-  /* --text-link: var(--link-colour); */
+  --text-link: var(--link-colour);
 
   /* title bar */
   --TB-header-padding: 125px;
@@ -1890,7 +1889,7 @@ html.platform-osx .scroller-2TZvBN {
 .bd-toast { /* pop up success notification */
   background-color: rgba(0,0,0,1);
   border: 1px solid var(--scrollbar-colour);
-  color: rgb(107, 255, 119);
+  color: var(--text-normal);
 }
 
 /* placeholder for add new message at the bottom of channel being selected within a server */
@@ -1983,5 +1982,5 @@ html.platform-osx .scroller-2TZvBN {
 
 /* link text */
 #app-mount .markup_f8f345 a:first-child {
-    color: #a7e3a7 !important
+    color: var(--link-colour) !important
 }
