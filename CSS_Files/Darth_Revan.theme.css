@@ -14,7 +14,7 @@
   --tint: rgb(var(--tint-colour), var(--tint-brightness));
   --foreground: rgb(75, 0, 130); /* background of bottom 2 server buttons (add & explore server) & notification on channel background */
   --foreground-half: var(--foreground);
-  --foreground-double: var(--foreground);
+  --foreground-double: rgb(120, 4, 202);/* background of bottom 2 server buttons (add & explore server) & notification on channel background hover & active */
   --foreground-triple: var(--foreground);
   --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
   --gradient-20: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.2), rgb(var(--gradient-secondary), 0.2));
@@ -102,12 +102,12 @@
   --interactive-muted: rgb(195, 112, 254); /* channel muted font color */
 
   --background-primary: transparent;
-  --background-secondary: rgb(0, 0, 0, .5); /* background of search bar and video links */
+  --background-secondary: rgb(0, 0, 0, .5); /* background of search bar & video links & theme node */
   --background-accent: rgb(0, 0, 0);
   --background-modifier-hover: rgb(39, 0, 0); /* hover direct message indicator & channel background */
   --background-modifier-active: rgb(70, 0, 0); /* channel click and hold before release */
   --background-modifier-selected: rgb(70, 0, 0); /* active background within direct message indicator background */
-  --background-modifier-accent: rgb(237, 48, 48); /* line color for date within channel */
+  --background-modifier-accent: var(--text-muted); /* line color for date within channel */
   --background-mentioned: rgb(0, 0, 0, 1);
   --background-mentioned-hover: rgb(0, 0, 0, 1);
   --background-message-hover: rgb(0, 0, 0, 1);
@@ -672,11 +672,11 @@ textarea {
 #app-mount .guilds_a4d4d9 .acronym_fb7739:hover {
   background: var(--foreground-double);
 }
-#app-mount .guilds_a4d4d9 [class*=circleIconButton] {
+#app-mount .guilds_a4d4d9 [class*=circleIconButton] { /* bottom 2 server buttons (add & explore servers) */
   background: var(--foreground);
-  color: rgb(var(--gradient-primary));
+  color: var(--text-normal);
 }
-#app-mount .guilds_a4d4d9 [class*=circleIconButton].selected-ugP_am, #app-mount .guilds_a4d4d9 [class*=circleIconButton]:hover {
+#app-mount .guilds_a4d4d9 [class*=circleIconButton].selected-ugP_am, #app-mount .guilds_a4d4d9 [class*=circleIconButton]:hover { /* bottom 2 server buttons (add & explore servers) hover */
   background: var(--foreground-double);
   color: var(--text-normal);
 }

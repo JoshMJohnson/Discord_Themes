@@ -12,9 +12,9 @@
   --TB-position-top: var(--TB-top, var(--window-padding));
   --TB-position-right: var(--window-padding);
   --tint: rgb(var(--tint-colour), var(--tint-brightness));
-  --foreground: rgb(0, 100, 0, 1); /* background of bottom 2 server buttons (add & explore server) & notification on channel background */
+  --foreground: rgb(0, 67, 0); /* background of bottom 2 server buttons (add & explore server) & notification on channel background */
   --foreground-half: var(--foreground);
-  --foreground-double: var(--foreground);
+  --foreground-double: rgb(0, 100, 0); /* background of bottom 2 server buttons (add & explore server) & notification on channel background hover & active */
   --foreground-triple: var(--foreground);
   --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
   --gradient-20: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.2), rgb(var(--gradient-secondary), 0.2));
@@ -102,12 +102,12 @@
   --interactive-muted: rgb(107, 255, 119); /* channel muted font color */
 
   --background-primary: rgb(0, 0, 0, 0.1);
-  --background-secondary: rgb(0, 0, 0, 0.8); /* background of search bar and video links */
+  --background-secondary: rgb(0, 0, 0, 0.8); /* background of search bar & video links & theme node */
   --background-accent: rgb(0, 0, 0, 1);
-  --background-modifier-hover: rgb(0, 0, 0, 1); /* hover direct message indicator & channel background */
-  --background-modifier-active: rgb(0, 0, 0, 1); /* channel click and hold before release */
-  --background-modifier-selected: rgb(0, 0, 0, 1); /* active direct message indicator background */
-  --background-modifier-accent: rgb(0, 0, 0, 1); /* line color for date within channel */
+  --background-modifier-hover: rgb(11, 59, 6); /* hover direct message indicator & channel background */
+  --background-modifier-active: rgb(24, 94, 16); /* channel click and hold before release */
+  --background-modifier-selected: var(--background-modifier-active); /* active direct message indicator background */
+  --background-modifier-accent: var(--text-muted); /* line color for date within channel */
   --background-mentioned: rgb(0, 0, 0, 1);
   --background-mentioned-hover: rgb(0, 0, 0, 1);
   --background-message-hover: rgb(0, 0, 0, 1);
@@ -672,11 +672,11 @@ textarea {
 #app-mount .guilds_a4d4d9 .acronym_fb7739:hover {
   background: var(--foreground-double);
 }
-#app-mount .guilds_a4d4d9 [class*=circleIconButton] {
+#app-mount .guilds_a4d4d9 [class*=circleIconButton] { /* bottom 2 server buttons (add & explore servers) */
   background: var(--foreground);
-  color: rgb(var(--gradient-primary));
+  color: var(--text-normal);
 }
-#app-mount .guilds_a4d4d9 [class*=circleIconButton].selected-ugP_am, #app-mount .guilds_a4d4d9 [class*=circleIconButton]:hover {
+#app-mount .guilds_a4d4d9 [class*=circleIconButton].selected-ugP_am, #app-mount .guilds_a4d4d9 [class*=circleIconButton]:hover { /* bottom 2 server buttons (add & explore servers) hovered */
   background: var(--foreground-double);
   color: var(--text-normal);
 }
