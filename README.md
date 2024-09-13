@@ -30,7 +30,7 @@
 
     1c.) Download css file of desired theme
     
-    1ca.) Download one of my files using link next to preview
+    1ca.) Download one of my files using link next to preview OR
     
     1cb.) Download from 'Better Discord' website from 'Themes' tab
 
