@@ -22,13 +22,17 @@
 
 </div>
 
-    *** Discord updates may require 'Better Discord' to be reinstalled ***
+    *** Discord updates may require 'Better Discord' to be reinstalled periodically ***
 
     1a.) Download 'Discord' from Google
 
     1b.) Download 'Better Discord' from Google
 
-    1c.) Download css file of desired theme from 'Better Discord' website from 'Themes' tab
+    1c.) Download css file of desired theme
+    
+    1ca.) Download one of my files using link next to preview
+    
+    1cb.) Download from 'Better Discord' website from 'Themes' tab
 
     2.) Open normal discord
 
