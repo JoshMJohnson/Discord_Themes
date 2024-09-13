@@ -79,7 +79,7 @@
   /* Other variables */
   --window-padding: 20px; /* Spacing around the Discord window | DEFAULT: 20px */
   --window-roundness: 20px; /* Roundness of Discord | DEFAULT: 10px */
-  --scrollbar-colour: rgba(0,100,0); /* DEFAULT: rgba(255,255,255,0.05) */
+  --scrollbar-colour: rgb(127, 190, 133); /* DEFAULT: rgba(255,255,255,0.05) */
   /* --link-colour: #90EE90;  */
   /* DEFAULT: #00b0f4 */
   
@@ -92,7 +92,7 @@
   --header-primary: #32CD32; /* header primary font color */
   --header-secondary: rgb(107, 255, 119); /* header secondary font color */
   --text-normal: rgb(107, 255, 119);
-  --text-muted: rgb(107, 255, 119); /* search bar placeholder and date, time of message text */
+  --text-muted: rgb(127, 190, 133); /* search bar placeholder and date, time of message text */
   --text-default: rgb(107, 255, 119);
   /* --text-link: #90EE90; */
 
@@ -105,8 +105,8 @@
   --background-primary: rgb(0, 0, 0, 0.1);
   --background-secondary: rgb(0, 0, 0, 0.8); /* background of search bar and video links */
   --background-accent: rgb(0, 0, 0, 1);
-  --background-modifier-hover: rgb(0, 0, 0, 1); /* hover direct message indicator background */
-  --background-modifier-active: rgb(0, 0, 0, 1);
+  --background-modifier-hover: rgb(0, 0, 0, 1); /* hover direct message indicator & channel background */
+  --background-modifier-active: rgb(0, 0, 0, 1); /* channel click and hold before release */
   --background-modifier-selected: rgb(0, 0, 0, 1); /* active direct message indicator background */
   --background-modifier-accent: rgb(0, 0, 0, 1); /* line color for date within channel */
   --background-mentioned: rgb(0, 0, 0, 1);
@@ -1901,7 +1901,7 @@ html.platform-osx .scroller-2TZvBN {
 .codeBlockSyntax_cdb578,
 .syntaxAfter_cdb578,
 .syntaxBefore_cdb578 {
-    color: var(--scrollbar-colour);
+    color: var(--text-muted);
 }
 
 /* icon colors (ex: hashtags) */
