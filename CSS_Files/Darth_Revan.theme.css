@@ -80,8 +80,7 @@
   --window-padding: 20px; /* Spacing around the Discord window | DEFAULT: 20px */
   --window-roundness: 20px; /* Roundness of Discord | DEFAULT: 10px */
   --scrollbar-colour: rgb(189, 48, 48); /* DEFAULT: rgba(255,255,255,0.05) */
-  /* --link-colour: #90EE90;  */
-  /* DEFAULT: #00b0f4 */
+  --link-colour: #ff6868; /* DEFAULT: #00b0f4 */
   
   /*
     Visit https://fonts.google.com and select one to your liking.
@@ -94,7 +93,7 @@
   --text-normal: rgb(223, 179, 255);
   --text-muted: rgb(237, 48, 48); /* search bar placeholder and date, time of message, settings labels text */
   --text-default: rgb(223, 179, 255);
-  /* --text-link: #90EE90; */
+  --text-link: var(--link-colour);
 
   --channels-default: rgb(195, 112, 254);
   --interactive-normal: rgb(222, 175, 255); /* channel not active font color */
@@ -103,12 +102,12 @@
   --interactive-muted: rgb(195, 112, 254); /* channel muted font color */
 
   --background-primary: transparent;
-  --background-secondary: rgb(0, 0, 0, .3); /* background of search bar and video links */
-  --background-accent: rgb(0, 0, 0, 1);
-  --background-modifier-hover: rgb(39, 0, 0); /* hover direct message indicator background */
-  --background-modifier-active: rgb(0, 0, 0, 1);
-  --background-modifier-selected: rgb(0, 0, 0, 1); /* active direct message indicator background */
-  --background-modifier-accent: rgb(0, 0, 0, 1); /* line color for date within channel */
+  --background-secondary: rgb(0, 0, 0, .5); /* background of search bar and video links */
+  --background-accent: rgb(0, 0, 0);
+  --background-modifier-hover: rgb(39, 0, 0); /* hover direct message indicator & channel background */
+  --background-modifier-active: rgb(70, 0, 0); /* channel click and hold before release */
+  --background-modifier-selected: rgb(70, 0, 0); /* active background within direct message indicator background */
+  --background-modifier-accent: rgb(237, 48, 48); /* line color for date within channel */
   --background-mentioned: rgb(0, 0, 0, 1);
   --background-mentioned-hover: rgb(0, 0, 0, 1);
   --background-message-hover: rgb(0, 0, 0, 1);
@@ -118,12 +117,12 @@
   --background-mobile-primary: #36393f;
   --background-mobile-secondary: #2f3136;
 
-  --elevation-stroke: 0 0 0 2px #228B22;
+  --elevation-stroke: 0 0 0 2px var(--scrollbar-colour); /* notification popup elevation color */
   --elevation-medium: 0 4px 4px #000; /* notification popup shadow */
   --elevation-high: 0 8px 16px #000;
   --elevation-low: 0 1px 0 rgb(4, 4, 5, 0.2), 0 1.5px 0 rgb(6, 6, 7, 0.05), 0 2px 0 rgb(4, 4, 5, 0.05);
 
-  --logo-primary: rgb(107, 255, 119);
+  --logo-primary: var(--text-muted);
   --channeltextarea-background: rgb(0, 0, 0); /* server create a new message at the bottom background color */
   --activity-card-background: #000;
 
@@ -139,7 +138,7 @@
   --deprecated-text-input-border-hover: #040405;
   --deprecated-text-input-border-disabled: #202225;
   --deprecated-text-input-prefix: #048204;
-  /* --text-link: var(--link-colour); */
+  --text-link: var(--link-colour);
 
   /* title bar */
   --TB-header-padding: 125px;
@@ -1890,7 +1889,7 @@ html.platform-osx .scroller-2TZvBN {
 .bd-toast { /* pop up success notification */
   background-color: rgba(0,0,0,1);
   border: 1px solid var(--scrollbar-colour);
-  color: rgb(107, 255, 119);
+  color: var(--text-normal);
 }
 
 /* placeholder for add new message at the bottom of channel being selected within a server */
@@ -1946,7 +1945,7 @@ html.platform-osx .scroller-2TZvBN {
 
 /* user being tagged */
 .wrapper_bf1b19 {
-  background: #000 !important;
+  background: var(--background-modifier-active) !important;
   color: var(--text-normal) !important;
 }
 
@@ -1977,11 +1976,11 @@ html.platform-osx .scroller-2TZvBN {
 /* background of server without an image; active */
 .wrapper_f90abb.selected_f90abb .childWrapper_f90abb,
 .wrapper_f90abb:hover .childWrapper_f90abb {
-    background-color: #004600;
+    background-color: var(--background-modifier-active);
     color: var(--interactive-active);
 }
 
 /* link text */
 #app-mount .markup_f8f345 a:first-child {
-    color: rgb(255, 62, 62) !important;
+    color: var(--link-colour) !important;
 }
