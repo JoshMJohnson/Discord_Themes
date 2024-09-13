@@ -12,10 +12,10 @@
   --TB-position-top: var(--TB-top, var(--window-padding));
   --TB-position-right: var(--window-padding);
   --tint: rgb(var(--tint-colour), var(--tint-brightness));
-  --foreground-half: rgb(0, 100, 0, 1);
-  --foreground: rgb(0, 100, 0, 1);
-  --foreground-double: rgb(0, 100, 0, 1);
-  --foreground-triple: rgb(0, 100, 0, 1);
+  --foreground: rgb(75, 0, 130); /* background of bottom 2 server buttons (add & explore server) & notification on channel background */
+  --foreground-half: var(--foreground);
+  --foreground-double: var(--foreground);
+  --foreground-triple: var(--foreground);
   --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
   --gradient-20: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.2), rgb(var(--gradient-secondary), 0.2));
   --gradient-50: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.5), rgb(var(--gradient-secondary), 0.5));
@@ -68,8 +68,8 @@
   --popout-modal-brightness: 0.4; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
 
   /* Gradient variables */
-  --gradient-primary: 60,0,0; /* DEFAULT: 103,58,183 */
-  --gradient-secondary: 100,0,0; /* DEFAULT: 63,81,181 */
+  --gradient-primary: 0,0,0; /* DEFAULT: 103,58,183 */
+  --gradient-secondary: 139,0,0; /* DEFAULT: 63,81,181 */
   --gradient-direction: 320deg; /* DEFAULT: 320deg */
 
   /* Tint variables */
@@ -123,7 +123,7 @@
   --elevation-low: 0 1px 0 rgb(4, 4, 5, 0.2), 0 1.5px 0 rgb(6, 6, 7, 0.05), 0 2px 0 rgb(4, 4, 5, 0.05);
 
   --logo-primary: var(--text-muted);
-  --channeltextarea-background: rgb(0, 0, 0); /* server create a new message at the bottom background color */
+  --channeltextarea-background: var(--background-secondary); /* server create a new message at the bottom background color */
   --activity-card-background: #000;
 
   --guild-header-text-shadow: 0 1px 1px rgb(0, 0, 0, 0.4);
@@ -137,7 +137,7 @@
   --deprecated-text-input-border: rgb(0, 0, 0, 0.3);
   --deprecated-text-input-border-hover: #040405;
   --deprecated-text-input-border-disabled: #202225;
-  --deprecated-text-input-prefix: #048204;
+  --deprecated-text-input-prefix: #6d8204;
   --text-link: var(--link-colour);
 
   /* title bar */
@@ -202,7 +202,7 @@ html body #app-mount .scrollerBase_c49869 {
   content: "Your version of Frosted Glass is outdated. Please redownload";
   white-space: pre-wrap;
   display: var(--update-notice-1, block);
-  color: rgb(107, 255, 119);
+  color: var(--text-normal);
   text-align: center;
   padding: 10px 0;
   box-sizing: border-box;
@@ -441,7 +441,7 @@ textarea {
 #app-mount .colorRed-1TFJan {
   background: rgb(var(--discord-red), 0.5);
   border: none;
-  color: rgb(107, 255, 119);
+  color: var(--text-normal);
   transition: 0.2s ease;
 }
 #app-mount .actionRed-gYn8D3:active, #app-mount .actionRed-gYn8D3:hover,
@@ -477,7 +477,7 @@ textarea {
   background: rgb(var(--discord-blurple), 0.3);
   border: transparent;
   transition: 0.2s ease;
-  color: rgb(107, 255, 119);
+  color: var(--text-normal);
 }
 #app-mount .lookOutlined-3sRXeN.colorBrand-3pXr91:active, #app-mount .lookOutlined-3sRXeN.colorBrand-3pXr91:hover {
   background: rgb(var(--discord-blurple));
@@ -607,7 +607,7 @@ textarea {
   top: 0;
   background: var(--foreground);
   border-color: transparent;
-  color: rgb(107, 255, 119);
+  color: var(--text-normal);
 }
 #app-mount .notice__5fd4c .button__33db6:hover {
   background: var(--foreground-double);
@@ -1106,7 +1106,7 @@ textarea {
   animation: fadeIn 0.3s ease forwards;
 }
 #app-mount .focused-3afm-j .check-1JyqgN {
-  color: rgb(107, 255, 119);
+  color: var(--text-normal);
 }
 #app-mount .button-F9qN4n {
   background: var(--foreground);
@@ -1454,7 +1454,7 @@ textarea {
   background: transparent;
 }
 #app-mount .root-1gCeng .colorHeaderPrimary-jN_yGr {
-  color: rgb(107, 255, 119);
+  color: var(--text-normal);
 }
 #app-mount .root-1gCeng .colorHeaderSecondary-g5teka {
   color: #004600;
@@ -1468,7 +1468,7 @@ textarea {
   background: #004600;
 }
 #app-mount .root-1gCeng .colorStandard-21JIj7 {
-  color: rgb(107, 255, 119);
+  color: var(--text-normal);
 }
 #app-mount .root-1gCeng .footer-2gL1pp {
   background: rgba(0, 0, 0, 0.2);
@@ -1477,14 +1477,14 @@ textarea {
   color: #004600;
 }
 #app-mount .root-1gCeng .backButton-iA7KIs:hover {
-  color: rgb(107, 255, 119);
+  color: var(--text-normal);
 }
 #app-mount .root-1gCeng .input--jS-j2 {
   background: transparent;
 }
 #app-mount .root-1gCeng .input-2g-os5 {
   background: rgba(0, 0, 0, 1);
-  color: rgb(107, 255, 119);
+  color: var(--text-normal);
 }
 #app-mount .root-1gCeng .sampleLink-2NLvZg {
   color: #004600;
