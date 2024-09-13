@@ -1,6 +1,6 @@
 <h1 align='center'>Custom Made Discord Themes</h1>
 
-<img src='approving_morty.gif' alt='Morty Dancing in Approval' width='200px' height='350px' align='right'>
+<img src='approving_morty.gif' alt='Morty Dancing in Approval' width='150px' height='225px' align='right'>
 
 [Darth Revan](#darth-revan)<br>
 [The Green Arrow](#the-green-arrow)<br><br><br><br><br><br>
