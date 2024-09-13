@@ -30,19 +30,21 @@
 
     1c.) Download css file of desired theme
     
-    1ca.) Download one of my files using link next to preview OR
+    1ca.) Download one of my css files using link next to preview OR
     
-    1cb.) Download from 'Better Discord' website from 'Themes' tab
+    1cb.) Download css file from 'Better Discord' website from 'Themes' tab
 
     2.) Open normal discord
 
-    3.) Select 'User Settings' on the bottom left corner of Discord
+    3.) Select 'User Settings' on the bottom left corner of Discord (gear icon)
 
     4.) Scroll down to 'BETTERDISCORD' section on left tab and click on 'Themes'
 
-    5.) Click on 'Open Themes Folder' at top of 'Themes' page
+    5.) Click on 'Open Themes Folder' at top left of 'Themes' page (folder icon)
 
     6.) Move download css file from 'Downloads' folder on pc into the folder opened by Discord from 'Open Themes Folder' button
+
+    7.) Toggle on custom theme and enjoy greatness!
 
     Note: Additional themes by random people found on Better Discord website
 
