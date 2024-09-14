@@ -57,3 +57,10 @@
     <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/The_Green_Arrow.jpg" alt="The Green Arrow Theme" width="600" height="400">
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
+
+<h3 align='center'>The Ring of Power</h3>
+<p align='center'><a href='https://drive.google.com/file/d/1myChgbB2O-E4bu5YroyHqai0leGXmzP5/view?usp=sharing'>Download The Ring of Power Theme</a></p>
+<p align='center'>
+    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/The_Ring_Of_Power.jpg" alt="The Ring of Power Theme" width="600" height="400">
+    <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
+</p>
