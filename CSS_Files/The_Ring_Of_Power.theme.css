@@ -678,7 +678,7 @@ textarea {
 }
 #app-mount .guilds_a4d4d9 [class*=circleIconButton].selected-ugP_am, #app-mount .guilds_a4d4d9 [class*=circleIconButton]:hover { /* bottom 2 server buttons (add & explore servers) hover */
   background: var(--foreground-double);
-  color: var(--text-normal);
+  color: var(--interactive-active);
 }
 
 #app-mount .sidebar_a4d4d9 {
