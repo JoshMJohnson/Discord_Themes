@@ -106,7 +106,7 @@
   --background-accent: rgb(0, 0, 0, 1);
   --background-modifier-hover: rgb(11, 59, 6); /* hover direct message indicator & channel background */
   --background-modifier-active: rgb(24, 94, 16); /* channel click and hold before release */
-  --background-modifier-selected: var(--background-modifier-active); /* active direct message indicator background */
+  --background-modifier-selected: var(--background-modifier-active); /* active background within direct message indicator & settings */
   --background-modifier-accent: var(--text-muted); /* line color for date within channel */
   --background-mentioned: rgb(0, 0, 0, 1);
   --background-mentioned-hover: rgb(0, 0, 0, 1);
