@@ -3,7 +3,8 @@
 <img src='approving_morty.gif' alt='Morty Dancing in Approval' width='150px' height='225px' align='right'>
 
 [Darth Revan](#darth-revan)<br>
-[The Green Arrow](#the-green-arrow)<br><br><br><br><br><br><br><br>
+[The Green Arrow](#the-green-arrow)<br>
+[The Ring of Power](#the-ring-of-power)<br><br><br><br><br><br><br><br>
 
 <h2 align='center'>How To Install</h2>
 
