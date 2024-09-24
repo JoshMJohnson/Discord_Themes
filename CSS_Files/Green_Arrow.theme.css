@@ -1,20 +1,20 @@
 /**
- * @name The Fellowship of the Ring
+ * @name Green Arrow
  * @author Josh Johnson
  * @version 2.0
- * @description The Fellowship of the Ring, also known as the Company of the Ring, was formed from nine members of the Free peoples during the War of the Ring.
+ * @description The Green Arrow... aka Oliver Queen
 */
 
 :root {
-  --version: "The Fellowship of the Ring 2.0";
+  --version: "Green Arrow 2.0";
   --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
   --TB-position-top: var(--TB-top, var(--window-padding));
   --TB-position-right: var(--window-padding);
   --tint: rgb(var(--tint-colour), var(--tint-brightness));
-  --foreground: rgb(0, 0, 0, 0.7); /* background of bottom 2 server buttons (add & explore server) & notification on channel background */
+  --foreground: rgb(0, 67, 0); /* background of bottom 2 server buttons (add & explore server) & notification on channel background */
   --foreground-half: var(--foreground);
-  --foreground-double: rgb(0, 0, 0, 0.5); /* background of bottom 2 server buttons (add & explore server) & notification on channel background hover & active */
+  --foreground-double: rgb(0, 100, 0); /* background of bottom 2 server buttons (add & explore server) & notification on channel background hover & active */
   --foreground-triple: var(--foreground);
   --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
   --gradient-20: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.2), rgb(var(--gradient-secondary), 0.2));
@@ -32,9 +32,6 @@
   --discord-spotify: 29, 185, 84;
   --discord-twitch: 89, 54, 149;
   --discord-xbox: 16, 124, 16;
-  --plain-white: rgb(255, 255, 255);
-  --lighter-white: rgb(200, 200, 200);
-  --plain-black: #000;
   --fb-popout-image: var(--popout-modal-image, var(--popout-image));
   --fb-popout-blur: var(--popout-modal-blur, var(--popout-image-blur));
   --fb-popout-size: var(--popout-modal-size, var(--popout-image-size));
@@ -47,7 +44,7 @@
   --fb-overlay-repeat: var(--popout-modal-repeat, var(--overlay-image-repeat));
 
   /* Background image variables */
-  --background-image: url('https://github.com/JoshMJohnson/Discord_Themes/blob/main/Wallpapers/The_Fellowship_Of_The_Ring.jpg?raw=true'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --background-image: url('https://github.com/JoshMJohnson/Discord_Themes/blob/main/Wallpapers/Green_Arrow.jpg?raw=true'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   --background-image-blur: 0px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
   --background-image-size: cover; /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
   --background-image-position: center; /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
@@ -64,26 +61,26 @@
   --home-button-position: center; /* Position of home button image | DEAFULT: center */
 
   /* Brightness variables */
-  --serverlist-brightness: 0.5; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
-  --left-brightness: 0.7; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
-  --middle-brightness: 0.5; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
-  --right-brightness: 0.3; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
-  --popout-modal-brightness: 0.4; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
+  --serverlist-brightness: 0.4; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --left-brightness: 0.6; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --middle-brightness: 0.4; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
+  --right-brightness: 0.6; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+  --popout-modal-brightness: 0.75; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
 
   /* Gradient variables */
   --gradient-primary: 0,0,0; /* DEFAULT: 103,58,183 */
-  --gradient-secondary: 200,200,200; /* DEFAULT: 63,81,181 */
+  --gradient-secondary: 0,100,0; /* DEFAULT: 63,81,181 */
   --gradient-direction: 320deg; /* DEFAULT: 320deg */
 
   /* Tint variables */
-  --tint-colour: 75,0,130; /* Colour of tint | DEAFULT: 255,51,159 */
-  --tint-brightness: 0; /* Brightness of --tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+  --tint-colour: 0,100,0; /* Colour of tint | DEAFULT: 255,51,159 */
+  --tint-brightness: 0.1; /* Brightness of --tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
 
   /* Other variables */
   --window-padding: 20px; /* Spacing around the Discord window | DEFAULT: 20px */
   --window-roundness: 20px; /* Roundness of Discord | DEFAULT: 10px */
-  --scrollbar-colour: var(--plain-white); /* scrollbar */
-  --link-colour: var(--lighter-white); /* DEFAULT: #00b0f4 */
+  --scrollbar-colour: rgb(127, 190, 133); /* scrollbar */
+  --link-colour: #a7e3a7; /* DEFAULT: #00b0f4 */
   
   /*
     Visit https://fonts.google.com and select one to your liking.
@@ -91,25 +88,25 @@
   */
   /* font */
   --font: 'Whitney';
-  --header-primary: var(--plain-white); /* header primary font color */
-  --header-secondary: var(--plain-white); /* header secondary font color */
-  --text-normal: var(--plain-white);
-  --text-muted: var(--lighter-white); /* search bar placeholder and date, time of message, settings labels text */
-  --text-default: var(--plain-white);
+  --header-primary: #32CD32; /* header primary font color */
+  --header-secondary: rgb(107, 255, 119); /* header secondary font color */
+  --text-normal: rgb(107, 255, 119);
+  --text-muted: rgb(127, 190, 133); /* search bar placeholder and date, time of message text */
+  --text-default: rgb(107, 255, 119);
   --text-link: var(--link-colour);
 
-  --channels-default: rgb(255, 255, 255, 0.7); 
-  --interactive-normal: var(--plain-white); /* channel not active font color */
-  --interactive-hover: var(--plain-white); /* channel hover font color */
-  --interactive-active: var(--plain-white); /* channel active font color */
-  --interactive-muted: var(--plain-white); /* channel muted font color */
+  --channels-default: #1eb91e;
+  --interactive-normal: rgb(107, 255, 119); /* channel not active font color */
+  --interactive-hover: rgb(107, 255, 119); /* channel hover font color */
+  --interactive-active: rgb(107, 255, 119); /* channel active font color */
+  --interactive-muted: rgb(107, 255, 119); /* channel muted font color */
 
-  --background-primary: transparent;
-  --background-secondary: rgb(0, 0, 0, .5); /* background of search bar & video links & theme node */
-  --background-accent: rgb(0, 0, 0);
-  --background-modifier-hover: rgb(0, 0, 0, 0.5); /* hover direct message indicator & channel background */
-  --background-modifier-active: #333; /* channel click and hold before release & active muted/deafen/user settings & user taged */
-  --background-modifier-selected:  var(--background-modifier-active); /* active background within direct message indicator & settings */
+  --background-primary: rgb(0, 0, 0, 0.1);
+  --background-secondary: rgb(0, 0, 0, 0.8); /* background of search bar & video links & theme node */
+  --background-accent: rgb(0, 0, 0, 1);
+  --background-modifier-hover: rgb(11, 59, 6); /* hover direct message indicator & channel background */
+  --background-modifier-active: rgb(24, 94, 16); /* channel click and hold before release & active muted/deafen/user settings & user taged */
+  --background-modifier-selected: var(--background-modifier-active); /* active background within direct message indicator & settings */
   --background-modifier-accent: var(--text-muted); /* line color for date within channel */
   --background-mentioned: rgb(0, 0, 0, 1);
   --background-mentioned-hover: rgb(0, 0, 0, 1);
@@ -120,7 +117,7 @@
   --background-mobile-primary: #36393f;
   --background-mobile-secondary: #2f3136;
 
-  --elevation-stroke: 0 0 0 2px var(--scrollbar-colour); /* notification popup elevation color */
+  --elevation-stroke: 0 0 0 2px #228B22; /* notification popup elevation color */
   --elevation-medium: 0 4px 4px #000; /* notification popup shadow */
   --elevation-high: 0 8px 16px #000;
   --elevation-low: 0 1px 0 rgb(4, 4, 5, 0.2), 0 1.5px 0 rgb(6, 6, 7, 0.05), 0 2px 0 rgb(4, 4, 5, 0.05);
@@ -679,7 +676,7 @@ textarea {
   background: var(--foreground);
   color: var(--text-normal);
 }
-#app-mount .guilds_a4d4d9 [class*=circleIconButton].selected-ugP_am, #app-mount .guilds_a4d4d9 [class*=circleIconButton]:hover { /* bottom 2 server buttons (add & explore servers) hover */
+#app-mount .guilds_a4d4d9 [class*=circleIconButton].selected-ugP_am, #app-mount .guilds_a4d4d9 [class*=circleIconButton]:hover { /* bottom 2 server buttons (add & explore servers) hovered */
   background: var(--foreground-double);
   color: var(--interactive-active);
 }
@@ -1868,7 +1865,7 @@ html.platform-osx .scroller-2TZvBN {
 
 .bd-addon-list .bd-addon-header { /* theme node header */
   color: var(--header-primary);
-  background: rgba(0, 0, 0, 1);
+  background: rgb(1, 40, 3);
 }
 
 .bd-addon-list { /* background of combined theme nodes */
@@ -1942,31 +1939,31 @@ html.platform-osx .scroller-2TZvBN {
 /* channel notification display */
 .numberBadge_df8943[style*="background-color"] {
   color: var(--text-normal);
-  background-color: #000 !important;
+  background-color: rgb(0, 0, 0) !important;
   border: 2px outset var(--text-normal);
 }
 
 /* user being tagged */
 .wrapper_bf1b19 {
-  background: var(--background-modifier-active) !important;
+  background: #000 !important;
   color: var(--text-normal) !important;
 }
 
 /* members currently in a limited channel */
 .users_a5bc92 {
-  background-color: #111;
+  background-color: #022402;
   color: var(--text-normal);
 }
 
 /* members allowed in a limited channel */
 .total_a5bc92 {
-  background-color: #333;
+  background-color: #004600;
   color: var(--text-normal);
 }
 
 /* separator between members currently in, and allowed in, a limited channel */
 .total_a5bc92:after {
-  border-right-color: #333;
+  border-right-color: #004600;
 }
 
 /* background of server without an image; not active */
@@ -1979,11 +1976,11 @@ html.platform-osx .scroller-2TZvBN {
 /* background of server without an image; active */
 .wrapper_f90abb.selected_f90abb .childWrapper_f90abb,
 .wrapper_f90abb:hover .childWrapper_f90abb {
-    background-color: var(--background-modifier-active);
+    background-color: #004600;
     color: var(--interactive-active);
 }
 
 /* link text */
 #app-mount .markup_f8f345 a:first-child {
-    color: var(--link-colour) !important;
+    color: var(--link-colour) !important
 }

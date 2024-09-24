@@ -1,12 +1,12 @@
 /**
- * @name The Ring of Power
+ * @name Ring of Power
  * @author Josh Johnson
  * @version 2.0
  * @description Forged by the Dark Lord Sauron in the fires of Mount Doom during the Second Age to gain dominion over the free peoples of Middle-Earth. 
 */
 
 :root {
-  --version: "The Ring of Power 2.0";
+  --version: "Ring of Power 2.0";
   --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
   --TB-position-top: var(--TB-top, var(--window-padding));
