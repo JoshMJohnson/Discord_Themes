@@ -4,7 +4,8 @@
 
 [Darth Revan](#darth-revan)<br>
 [The Green Arrow](#the-green-arrow)<br>
-[The Ring of Power](#the-ring-of-power)<br><br><br><br><br><br><br><br>
+[The Ring of Power](#the-ring-of-power)<br>
+[The Fellowship of the Ring](#the-fellowship-of-the-ring)<br><br><br><br><br><br><br><br>
 
 <h2 align='center'>How To Install</h2>
 
@@ -63,5 +64,12 @@
 <p align='center'><a href='https://drive.google.com/file/d/1myChgbB2O-E4bu5YroyHqai0leGXmzP5/view?usp=sharing'>Download The Ring of Power Theme</a></p>
 <p align='center'>
     <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/The_Ring_Of_Power.jpg" alt="The Ring of Power Theme" width="600" height="400">
+    <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
+</p>
+
+<h3 align='center'>The Fellowship of the Ring</h3>
+<p align='center'><a href='https://drive.google.com/file/d/1NkfRJ7xW3_AOV3SRHJuttvt2C2iIq-ba/view?usp=sharing'>Download The Fellowship of the Ring Theme</a></p>
+<p align='center'>
+    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/The_Fellowship_Of_The_Ring.jpg" alt="The Fellowship of the Ring Theme" width="600" height="400">
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
