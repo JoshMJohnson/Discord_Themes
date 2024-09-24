@@ -5,7 +5,8 @@
 [Darth Revan](#darth-revan)<br>
 [Green Arrow](#green-arrow)<br>
 [Ring of Power](#ring-of-power)<br>
-[Fellowship of the Ring](#fellowship-of-the-ring)<br><br><br><br><br><br><br>
+[Fellowship of the Ring](#fellowship-of-the-ring)<br>
+[Scarlet Witch](#scarlet-witch)<br><br><br><br><br><br>
 
 <h2 align='center'>How To Install</h2>
 
@@ -47,29 +48,36 @@
 <h2 align='center'>Theme Previews</h2>
 
 <h3 align='center'>Darth Revan</h3>
-<p align='center'><a href='https://drive.google.com/file/d/1Nejqd8OtL62s2gfyho14A3Ery7awNr9X/view?usp=sharing'>Download Darth Revan Theme</a></p>
+<p align='center'><a href='https://drive.google.com/file/d/1Nejqd8OtL62s2gfyho14A3Ery7awNr9X/view?usp=sharing'>Download the Darth Revan theme</a></p>
 <p align='center'>
     <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Darth_Revan.jpg" alt="Darth Revan" width="600" height="400">
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
 
 <h3 align='center'>Green Arrow</h3>
-<p align='center'><a href='https://drive.google.com/file/d/1EU-1nR6h0wF0N3KppOfxzQTBED7yfcRz/view?usp=sharing'>Download The Green Arrow Theme</a></p>
+<p align='center'><a href='https://drive.google.com/file/d/1EU-1nR6h0wF0N3KppOfxzQTBED7yfcRz/view?usp=sharing'>Download the Green Arrow theme</a></p>
 <p align='center'>
-    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/The_Green_Arrow.jpg" alt="The Green Arrow Theme" width="600" height="400">
+    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Green_Arrow.jpg" alt="The Green Arrow Theme" width="600" height="400">
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
 
 <h3 align='center'>Ring of Power</h3>
-<p align='center'><a href='https://drive.google.com/file/d/15X5LJFcvJRAURqkQFoYPFUxLZWLz1l0Y/view?usp=sharing'>Download The Ring of Power Theme</a></p>
+<p align='center'><a href='https://drive.google.com/file/d/15X5LJFcvJRAURqkQFoYPFUxLZWLz1l0Y/view?usp=sharing'>Download the Ring of Power theme</a></p>
 <p align='center'>
-    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/The_Ring_Of_Power.jpg" alt="The Ring of Power Theme" width="600" height="400">
+    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Ring_Of_Power.jpg" alt="The Ring of Power Theme" width="600" height="400">
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
 
 <h3 align='center'>Fellowship of the Ring</h3>
-<p align='center'><a href='https://drive.google.com/file/d/1sq0Bmf4D4CHQuhrdHFKVejBON5j_BI9m/view?usp=sharing'>Download The Fellowship of the Ring Theme</a></p>
+<p align='center'><a href='https://drive.google.com/file/d/1sq0Bmf4D4CHQuhrdHFKVejBON5j_BI9m/view?usp=sharing'>Download the Fellowship of the Ring theme</a></p>
 <p align='center'>
-    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/The_Fellowship_Of_The_Ring.jpg" alt="The Fellowship of the Ring Theme" width="600" height="400">
+    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Fellowship_Of_The_Ring.jpg" alt="The Fellowship of the Ring Theme" width="600" height="400">
+    <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
+</p>
+
+<h3 align='center'>Scarlet Witch</h3>
+<p align='center'><a href='https://drive.google.com/file/d/1Rvn9hp2xk15HR1lG-cs3rVdGaVRAv4K5/view?usp=sharing'>Download the Scarlet Witch theme</a></p>
+<p align='center'>
+    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Scarlet_Witch.jpg" alt="Scarlet Witch theme" width="600" height="400">
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
