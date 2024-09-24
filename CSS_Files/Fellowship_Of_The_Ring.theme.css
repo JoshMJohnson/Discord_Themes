@@ -106,7 +106,7 @@
 
   --background-primary: transparent;
   --background-secondary: rgb(0, 0, 0, .5); /* background of search bar & video links & theme node */
-  --background-accent: rgb(0, 0, 0);
+  --background-accent: rgb(0, 0, 0); /* background of server someone in chat icon */
   --background-modifier-hover: rgb(0, 0, 0, 0.5); /* hover direct message indicator & channel background */
   --background-modifier-active: #333; /* channel click and hold before release & active muted/deafen/user settings & user taged */
   --background-modifier-selected:  var(--background-modifier-active); /* active background within direct message indicator & settings */
