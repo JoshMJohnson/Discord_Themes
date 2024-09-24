@@ -79,7 +79,7 @@
   /* Other variables */
   --window-padding: 20px; /* Spacing around the Discord window | DEFAULT: 20px */
   --window-roundness: 20px; /* Roundness of Discord | DEFAULT: 10px */
-  --scrollbar-colour: rgb(206, 145, 39); /* DEFAULT: rgba(255,255,255,0.05) */
+  --scrollbar-colour: rgb(206, 145, 39); /* scrollbar */
   --link-colour: rgb(255, 162, 0); /* DEFAULT: #00b0f4 */
   
   /*
