@@ -105,7 +105,7 @@
   --background-secondary: rgb(0, 0, 0, 0.8); /* background of search bar & video links & theme node */
   --background-accent: rgb(0, 0, 0, 1);
   --background-modifier-hover: rgb(11, 59, 6); /* hover direct message indicator & channel background */
-  --background-modifier-active: rgb(24, 94, 16); /* channel click and hold before release */
+  --background-modifier-active: rgb(24, 94, 16); /* channel click and hold before release & active muted/deafen/user settings & user taged */
   --background-modifier-selected: var(--background-modifier-active); /* active background within direct message indicator & settings */
   --background-modifier-accent: var(--text-muted); /* line color for date within channel */
   --background-mentioned: rgb(0, 0, 0, 1);
