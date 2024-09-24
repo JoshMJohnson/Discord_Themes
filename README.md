@@ -3,9 +3,9 @@
 <img src='approving_morty.gif' alt='Morty Dancing in Approval' width='150px' height='225px' align='right'>
 
 [Darth Revan](#darth-revan)<br>
-[The Green Arrow](#the-green-arrow)<br>
-[The Ring of Power](#the-ring-of-power)<br>
-[The Fellowship of the Ring](#the-fellowship-of-the-ring)<br><br><br><br><br><br><br>
+[Green Arrow](#green-arrow)<br>
+[Ring of Power](#ring-of-power)<br>
+[Fellowship of the Ring](#fellowship-of-the-ring)<br><br><br><br><br><br><br>
 
 <h2 align='center'>How To Install</h2>
 
@@ -53,21 +53,21 @@
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
 
-<h3 align='center'>The Green Arrow</h3>
+<h3 align='center'>Green Arrow</h3>
 <p align='center'><a href='https://drive.google.com/file/d/1EU-1nR6h0wF0N3KppOfxzQTBED7yfcRz/view?usp=sharing'>Download The Green Arrow Theme</a></p>
 <p align='center'>
     <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/The_Green_Arrow.jpg" alt="The Green Arrow Theme" width="600" height="400">
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
 
-<h3 align='center'>The Ring of Power</h3>
+<h3 align='center'>Ring of Power</h3>
 <p align='center'><a href='https://drive.google.com/file/d/15X5LJFcvJRAURqkQFoYPFUxLZWLz1l0Y/view?usp=sharing'>Download The Ring of Power Theme</a></p>
 <p align='center'>
     <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/The_Ring_Of_Power.jpg" alt="The Ring of Power Theme" width="600" height="400">
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
 
-<h3 align='center'>The Fellowship of the Ring</h3>
+<h3 align='center'>Fellowship of the Ring</h3>
 <p align='center'><a href='https://drive.google.com/file/d/1sq0Bmf4D4CHQuhrdHFKVejBON5j_BI9m/view?usp=sharing'>Download The Fellowship of the Ring Theme</a></p>
 <p align='center'>
     <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/The_Fellowship_Of_The_Ring.jpg" alt="The Fellowship of the Ring Theme" width="600" height="400">
