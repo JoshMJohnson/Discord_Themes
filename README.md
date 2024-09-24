@@ -5,7 +5,7 @@
 [Darth Revan](#darth-revan)<br>
 [The Green Arrow](#the-green-arrow)<br>
 [The Ring of Power](#the-ring-of-power)<br>
-[The Fellowship of the Ring](#the-fellowship-of-the-ring)<br><br><br><br><br><br><br><br>
+[The Fellowship of the Ring](#the-fellowship-of-the-ring)<br><br><br><br><br><br><br>
 
 <h2 align='center'>How To Install</h2>
 
