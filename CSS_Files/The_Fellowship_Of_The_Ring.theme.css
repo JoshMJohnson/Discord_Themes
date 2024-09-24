@@ -98,8 +98,8 @@
   --text-default: var(--plain-white);
   --text-link: var(--link-colour);
 
-  --channels-default: var(--plain-white);
-  --interactive-normal: var(--plain-white);/* channel not active font color */
+  --channels-default: rgb(255, 255, 255, 0.7); 
+  --interactive-normal: var(--plain-white); /* channel not active font color */
   --interactive-hover: var(--plain-white); /* channel hover font color */
   --interactive-active: var(--plain-white); /* channel active font color */
   --interactive-muted: var(--plain-white); /* channel muted font color */
