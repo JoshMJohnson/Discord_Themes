@@ -7,7 +7,8 @@
 [Ring of Power](#ring-of-power)<br>
 [Fellowship of the Ring](#fellowship-of-the-ring)<br>
 [Scarlet Witch](#scarlet-witch)<br>
-[NF](#nf)<br><br><br><br><br>
+[NF](#nf)<br>
+[Argonath](#argonath)<br><br><br><br>
 
 <h2 align='center'>How To Install</h2>
 
@@ -87,5 +88,12 @@
 <p align='center'><a href='https://drive.google.com/file/d/14zZnMA7s4NnPx8uwUZn-sO-gDsvwBVeI/view?usp=sharing'>Download the NF theme</a></p>
 <p align='center'>
     <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/NF.jpg" alt="NF theme" width="600" height="400">
+    <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
+</p>
+
+<h3 align='center'>Argonath</h3>
+<p align='center'><a href='https://drive.google.com/file/d/1eTt8h9mYwwtSEhRI1_ODJ_hVI-e548df/view?usp=sharing'>Download the Argonath theme</a></p>
+<p align='center'>
+    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Argonath.jpg" alt="Argonath theme" width="600" height="400">
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
