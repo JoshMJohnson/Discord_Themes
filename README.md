@@ -56,10 +56,10 @@
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
 
-<h3 align='center'>Green Arrow</h3>
-<p align='center'><a href='https://drive.google.com/file/d/1EU-1nR6h0wF0N3KppOfxzQTBED7yfcRz/view?usp=sharing'>Download the Green Arrow theme</a></p>
+<h3 align='center'>Scarlet Witch</h3>
+<p align='center'><a href='https://drive.google.com/file/d/1Rvn9hp2xk15HR1lG-cs3rVdGaVRAv4K5/view?usp=sharing'>Download the Scarlet Witch theme</a></p>
 <p align='center'>
-    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Green_Arrow.jpg" alt="The Green Arrow Theme" width="600" height="400">
+    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Scarlet_Witch.jpg" alt="Scarlet Witch theme" width="600" height="400">
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
 
@@ -77,10 +77,10 @@
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
 
-<h3 align='center'>Scarlet Witch</h3>
-<p align='center'><a href='https://drive.google.com/file/d/1Rvn9hp2xk15HR1lG-cs3rVdGaVRAv4K5/view?usp=sharing'>Download the Scarlet Witch theme</a></p>
+<h3 align='center'>Argonath</h3>
+<p align='center'><a href='https://drive.google.com/file/d/1eTt8h9mYwwtSEhRI1_ODJ_hVI-e548df/view?usp=sharing'>Download the Argonath theme</a></p>
 <p align='center'>
-    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Scarlet_Witch.jpg" alt="Scarlet Witch theme" width="600" height="400">
+    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Argonath.jpg" alt="Argonath theme" width="600" height="400">
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
 
@@ -91,9 +91,9 @@
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
 
-<h3 align='center'>Argonath</h3>
-<p align='center'><a href='https://drive.google.com/file/d/1eTt8h9mYwwtSEhRI1_ODJ_hVI-e548df/view?usp=sharing'>Download the Argonath theme</a></p>
+<h3 align='center'>Green Arrow</h3>
+<p align='center'><a href='https://drive.google.com/file/d/1EU-1nR6h0wF0N3KppOfxzQTBED7yfcRz/view?usp=sharing'>Download the Green Arrow theme</a></p>
 <p align='center'>
-    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Argonath.jpg" alt="Argonath theme" width="600" height="400">
+    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Green_Arrow.jpg" alt="The Green Arrow Theme" width="600" height="400">
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
