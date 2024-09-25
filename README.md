@@ -86,6 +86,6 @@
 <h3 align='center'>NF</h3>
 <p align='center'><a href='https://drive.google.com/file/d/14zZnMA7s4NnPx8uwUZn-sO-gDsvwBVeI/view?usp=sharing'>Download the NF theme</a></p>
 <p align='center'>
-    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/Scarlet_Witch.jpg" alt="NF theme" width="600" height="400">
+    <img src="https://github.com/JoshMJohnson/Discord_Themes/blob/main/Theme_Previews/NF.jpg" alt="NF theme" width="600" height="400">
     <p align='center'>:arrow_up: <a href="#custom-made-discord-themes">Back to top</a> :arrow_up:</p>
 </p>
