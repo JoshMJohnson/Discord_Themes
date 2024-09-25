@@ -3,12 +3,12 @@
 <img src='approving_morty.gif' alt='Morty Dancing in Approval' width='150px' height='225px' align='right'>
 
 [Darth Revan](#darth-revan)<br>
-[Green Arrow](#green-arrow)<br>
+[Scarlet Witch](#scarlet-witch)<br>
 [Ring of Power](#ring-of-power)<br>
 [Fellowship of the Ring](#fellowship-of-the-ring)<br>
-[Scarlet Witch](#scarlet-witch)<br>
+[Argonath](#argonath)<br>
 [NF](#nf)<br>
-[Argonath](#argonath)<br><br><br><br>
+[Green Arrow](#green-arrow)<br><br><br><br>
 
 <h2 align='center'>How To Install</h2>
 
