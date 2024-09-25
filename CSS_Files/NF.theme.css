@@ -12,9 +12,9 @@
   --TB-position-top: var(--TB-top, var(--window-padding));
   --TB-position-right: var(--window-padding);
   --tint: rgb(var(--tint-colour), var(--tint-brightness));
-  --foreground: rgb(75, 0, 130); /* background of bottom 2 server buttons (add & explore server) & notification on channel background */
+  --foreground: rgb(30, 30, 30); /* background of bottom 2 server buttons (add & explore server) & notification on channel background */
   --foreground-half: var(--foreground);
-  --foreground-double: rgb(120, 4, 202);/* background of bottom 2 server buttons (add & explore server) & notification on channel background hover & active */
+  --foreground-double: rgb(87, 87, 87);/* background of bottom 2 server buttons (add & explore server) & notification on channel background hover & active */
   --foreground-triple: var(--foreground);
   --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
   --gradient-20: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.2), rgb(var(--gradient-secondary), 0.2));
@@ -69,8 +69,8 @@
 
   /* Gradient variables */
   --gradient-primary: 0,0,0; /* DEFAULT: 103,58,183 */
-  --gradient-secondary: 139,0,0; /* DEFAULT: 63,81,181 */
-  --gradient-direction: 320deg; /* DEFAULT: 320deg */
+  --gradient-secondary: 175,175,175; /* DEFAULT: 63,81,181 */
+  --gradient-direction: 270deg; /* DEFAULT: 320deg */
 
   /* Tint variables */
   --tint-colour: 75,0,130; /* Colour of tint | DEAFULT: 255,51,159 */
@@ -97,15 +97,15 @@
 
   --channels-default: rgb(200, 200, 200);
   --interactive-normal: rgb(255, 255, 255); /* channel not active font color */
-  --interactive-hover: rgb(222, 175, 255); /* channel hover font color */
-  --interactive-active: rgb(222, 175, 255); /* channel active font color */
-  --interactive-muted: rgb(195, 112, 254); /* channel muted font color */
+  --interactive-hover: rgb(255, 255, 255); /* channel hover font color */
+  --interactive-active: rgb(255, 255, 255); /* channel active font color */
+  --interactive-muted: rgb(200, 200, 200); /* channel muted font color */
 
   --background-primary: transparent;
-  --background-secondary: rgb(0, 0, 0, .5); /* background of search bar & video links & theme node */
+  --background-secondary: rgb(0, 0, 0, .6); /* background of search bar & video links & theme node */
   --background-accent: rgb(0, 0, 0); /* background of server someone in chat icon */
-  --background-modifier-hover: rgb(39, 0, 0); /* hover direct message indicator & channel background */
-  --background-modifier-active: rgb(70, 0, 0); /* channel click and hold before release & active muted/deafen/user settings & user taged */
+  --background-modifier-hover: rgb(54, 54, 54); /* hover direct message indicator & channel background */
+  --background-modifier-active: rgb(20, 20, 20); /* channel click and hold before release & active muted/deafen/user settings & user taged */
   --background-modifier-selected:  var(--background-modifier-active); /* active background within direct message indicator & settings */
   --background-modifier-accent: var(--text-muted); /* line color for date within channel */
   --background-mentioned: rgb(0, 0, 0, 1);
@@ -1951,19 +1951,19 @@ html.platform-osx .scroller-2TZvBN {
 
 /* members currently in a limited channel */
 .users_a5bc92 {
-  background-color: #310053;
+  background-color: #333;
   color: var(--text-normal);
 }
 
 /* members allowed in a limited channel */
 .total_a5bc92 {
-  background-color: #6800b3;
+  background-color: #666;
   color: var(--text-normal);
 }
 
 /* separator between members currently in, and allowed in, a limited channel */
 .total_a5bc92:after {
-  border-right-color: #6800b3;
+  border-right-color: #666;
 }
 
 /* background of server without an image; not active */
