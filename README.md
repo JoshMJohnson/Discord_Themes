@@ -12,6 +12,8 @@
 
 <h2 align='center'>How To Install</h2>
 
+<i>Discord my periodically install updates that leave these themes broken on Better Discord... I will try to maintain these themes within a timely manor</i>
+
 <div align='center'>
 
 <img src="./discord_url_screenshot.png" alt="Discord URL" width="500" height="150">
